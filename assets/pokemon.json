@@ -1,0 +1,7081 @@
+{
+    "pokemon": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 45,
+                "Attack": 49,
+                "Defense": 49,
+                "Sp. Attack": 65,
+                "Sp. Defense": 65,
+                "Speed": 45
+            },
+            "desc": "Bulbasaur can be seen napping in bright sunlight.\nThere is a seed on its back. By soaking up the sun’s rays,\nthe seed grows progressively larger.",
+            "evolves_to": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 62,
+                "Defense": 63,
+                "Sp. Attack": 80,
+                "Sp. Defense": 80,
+                "Speed": 60
+            },
+            "desc": "There is a bud on this Pokémon’s back. To support its weight,\nIvysaur’s legs and trunk grow thick and strong.\nIf it starts spending more time lying in the sunlight,\nit’s a sign that the bud will bloom into a large flower soon.",
+            "evolves_to": [
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 82,
+                "Defense": 83,
+                "Sp. Attack": 100,
+                "Sp. Defense": 100,
+                "Speed": 80
+            },
+            "desc": "There is a large flower on Venusaur’s back. The flower is said\nto take on vivid colors if it gets plenty of nutrition and sunlight.\nThe flower’s aroma soothes the emotions of people.",
+            "evolves_to": []
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 39,
+                "Attack": 52,
+                "Defense": 43,
+                "Sp. Attack": 60,
+                "Sp. Defense": 50,
+                "Speed": 65
+            },
+            "desc": "The flame that burns at the tip of its tail is an indication\nof its emotions. The flame wavers when Charmander\nis enjoying itself. If the Pokémon becomes enraged,\nthe flame burns fiercely.",
+            "evolves_to": [
+                5
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Charmeleon",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 58,
+                "Attack": 64,
+                "Defense": 58,
+                "Sp. Attack": 80,
+                "Sp. Defense": 65,
+                "Speed": 80
+            },
+            "desc": "Charmeleon mercilessly destroys its foes using its sharp\nclaws. If it encounters a strong foe, it turns aggressive.\nIn this excited state, the flame at the tip of its tail flares with\na bluish white color.",
+            "evolves_to": [
+                6
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Charizard",
+            "type": [
+                "Fire",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 78,
+                "Attack": 84,
+                "Defense": 78,
+                "Sp. Attack": 109,
+                "Sp. Defense": 85,
+                "Speed": 100
+            },
+            "desc": "Charizard flies around the sky in search of powerful opponents.\nIt breathes fire of such great heat that it melts anything.\nHowever, it never turns its fiery breath on any opponent\nweaker than itself.",
+            "evolves_to": []
+        },
+        {
+            "id": 7,
+            "name": "Squirtle",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 44,
+                "Attack": 48,
+                "Defense": 65,
+                "Sp. Attack": 50,
+                "Sp. Defense": 64,
+                "Speed": 43
+            },
+            "desc": "Squirtle’s shell is not merely used for protection.\nThe shell’s rounded shape and the grooves on its\nsurface help minimize resistance in water,\nenabling this Pokémon to swim at high speeds.",
+            "evolves_to": [
+                8
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Wartortle",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 59,
+                "Attack": 63,
+                "Defense": 80,
+                "Sp. Attack": 65,
+                "Sp. Defense": 80,
+                "Speed": 58
+            },
+            "desc": "Its tail is large and covered with a rich, thick fur. The tail\nbecomes increasingly deeper in color as Wartortle ages.\nThe scratches on its shell are evidence of this Pokémon’s\ntoughness as a battler.",
+            "evolves_to": [
+                9
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Blastoise",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 79,
+                "Attack": 83,
+                "Defense": 100,
+                "Sp. Attack": 85,
+                "Sp. Defense": 105,
+                "Speed": 78
+            },
+            "desc": "Blastoise has water spouts that protrude from its shell.\nThe water spouts are very accurate.\nThey can shoot bullets of water with enough accuracy\nto strike empty cans from a distance of over 160 feet.",
+            "evolves_to": []
+        },
+        {
+            "id": 10,
+            "name": "Caterpie",
+            "type": [
+                "Bug"
+            ],
+            "attr": {
+                "HP": 45,
+                "Attack": 30,
+                "Defense": 35,
+                "Sp. Attack": 20,
+                "Sp. Defense": 20,
+                "Speed": 45
+            },
+            "desc": "Perhaps because it would like to grow up\nquickly, it has a voracious appetite, eating\na hundred leaves a day.",
+            "evolves_to": [
+                11
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Metapod",
+            "type": [
+                "Bug"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 20,
+                "Defense": 55,
+                "Sp. Attack": 25,
+                "Sp. Defense": 25,
+                "Speed": 30
+            },
+            "desc": "Its shell is filled with a thick liquid. All of the\ncells throughout its body are being rebuilt in\npreparation for evolution.",
+            "evolves_to": [
+                12
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Butterfree",
+            "type": [
+                "Bug",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 45,
+                "Defense": 50,
+                "Sp. Attack": 90,
+                "Sp. Defense": 80,
+                "Speed": 70
+            },
+            "desc": "Its wings are covered in toxic scales. If it finds\nbird Pokémon going after Caterpie, Butterfree\nsprinkles its scales on them to drive them off.",
+            "evolves_to": []
+        },
+        {
+            "id": 13,
+            "name": "Weedle",
+            "type": [
+                "Bug",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 35,
+                "Defense": 30,
+                "Sp. Attack": 20,
+                "Sp. Defense": 20,
+                "Speed": 50
+            },
+            "desc": "Weedle has an extremely acute sense of smell. It is capable\nof distinguishing its favorite kinds of leaves from those it\ndislikes just by sniffing with its big red proboscis (nose).",
+            "evolves_to": [
+                14
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Kakuna",
+            "type": [
+                "Bug",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 45,
+                "Attack": 25,
+                "Defense": 50,
+                "Sp. Attack": 25,
+                "Sp. Defense": 25,
+                "Speed": 35
+            },
+            "desc": "Kakuna remains virtually immobile as it clings to a tree.\nHowever, on the inside, it is extremely busy as it prepares\nfor its coming evolution.\nThis is evident from how hot the shell becomes to the touch.",
+            "evolves_to": [
+                15
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Beedrill",
+            "type": [
+                "Bug",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 90,
+                "Defense": 40,
+                "Sp. Attack": 45,
+                "Sp. Defense": 80,
+                "Speed": 75
+            },
+            "desc": "Beedrill is extremely territorial. No one should ever approach\nits nest—this is for their own safety. If angered, they will attack\nin a furious swarm.",
+            "evolves_to": []
+        },
+        {
+            "id": 16,
+            "name": "Pidgey",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 45,
+                "Defense": 40,
+                "Sp. Attack": 35,
+                "Sp. Defense": 35,
+                "Speed": 56
+            },
+            "desc": "Pidgey has an extremely sharp sense of direction.\nIt is capable of unerringly returning home to its nest,\nhowever far it may be removed from its familiar surroundings.",
+            "evolves_to": [
+                17
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Pidgeotto",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 63,
+                "Attack": 60,
+                "Defense": 55,
+                "Sp. Attack": 50,
+                "Sp. Defense": 50,
+                "Speed": 71
+            },
+            "desc": "Pidgeotto claims a large area as its own territory. This\nPokémon flies around, patrolling its living space. If its territory\nis violated, it shows no mercy in thoroughly punishing the foe\nwith its sharp claws.",
+            "evolves_to": [
+                18
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Pidgeot",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 83,
+                "Attack": 80,
+                "Defense": 75,
+                "Sp. Attack": 70,
+                "Sp. Defense": 70,
+                "Speed": 101
+            },
+            "desc": "This Pokémon has a dazzling plumage of beautifully\nglossy feathers. Many Trainers are captivated by the\nstriking beauty of the feathers on its head, compelling\nthem to choose Pidgeot as their Pokémon.",
+            "evolves_to": []
+        },
+        {
+            "id": 19,
+            "name": "Rattata",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 30,
+                "Attack": 56,
+                "Defense": 35,
+                "Sp. Attack": 25,
+                "Sp. Defense": 35,
+                "Speed": 72
+            },
+            "desc": "Its incisors grow continuously throughout its life.\nIf its incisors get too long, this Pokémon\nbecomes unable to eat, and it starves to death.",
+            "evolves_to": [
+                20
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Raticate",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 81,
+                "Defense": 60,
+                "Sp. Attack": 50,
+                "Sp. Defense": 70,
+                "Speed": 97
+            },
+            "desc": "People say that it fled from its enemies by\nusing its small webbed hind feet to swim\nfrom island to island in Alola.",
+            "evolves_to": []
+        },
+        {
+            "id": 21,
+            "name": "Spearow",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 60,
+                "Defense": 30,
+                "Sp. Attack": 31,
+                "Sp. Defense": 31,
+                "Speed": 70
+            },
+            "desc": "Its reckless nature leads it to stand up to\nothers—even large Pokémon—if it has to protect\nits territory.",
+            "evolves_to": [
+                22
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Fearow",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 90,
+                "Defense": 65,
+                "Sp. Attack": 61,
+                "Sp. Defense": 61,
+                "Speed": 100
+            },
+            "desc": "Carrying food through Fearow’s territory is\ndangerous. It will snatch the food away from\nyou in a flash!",
+            "evolves_to": []
+        },
+        {
+            "id": 23,
+            "name": "Ekans",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 35,
+                "Attack": 60,
+                "Defense": 44,
+                "Sp. Attack": 40,
+                "Sp. Defense": 54,
+                "Speed": 55
+            },
+            "desc": "By dislocating its jaw, it can swallow prey larger\nthan itself. After a meal, it curls up and rests.",
+            "evolves_to": [
+                24
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Arbok",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 95,
+                "Defense": 69,
+                "Sp. Attack": 65,
+                "Sp. Defense": 79,
+                "Speed": 80
+            },
+            "desc": "The latest research has determined that there\nare over 20 possible arrangements of the\npatterns on its stomach.",
+            "evolves_to": []
+        },
+        {
+            "id": 25,
+            "name": "Pikachu",
+            "type": [
+                "Electric"
+            ],
+            "attr": {
+                "HP": 35,
+                "Attack": 55,
+                "Defense": 40,
+                "Sp. Attack": 50,
+                "Sp. Defense": 50,
+                "Speed": 90
+            },
+            "desc": "Its nature is to store up electricity. Forests\nwhere nests of Pikachu live are dangerous,\nsince the trees are so often struck by lightning.",
+            "evolves_to": [
+                26
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Raichu",
+            "type": [
+                "Electric"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 90,
+                "Defense": 55,
+                "Sp. Attack": 90,
+                "Sp. Defense": 80,
+                "Speed": 110
+            },
+            "desc": "As electricity builds up inside its body, it\nbecomes more aggressive. One theory is that\nthe electricity buildup is actually causing stress.",
+            "evolves_to": []
+        },
+        {
+            "id": 27,
+            "name": "Sandshrew",
+            "type": [
+                "Ground"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 75,
+                "Defense": 85,
+                "Sp. Attack": 20,
+                "Sp. Defense": 30,
+                "Speed": 40
+            },
+            "desc": "It lives in areas of limited rainfall. When danger\napproaches, it curls up into a ball to protect its\nsoft stomach.",
+            "evolves_to": [
+                28
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Sandslash",
+            "type": [
+                "Ground"
+            ],
+            "attr": {
+                "HP": 75,
+                "Attack": 100,
+                "Defense": 110,
+                "Sp. Attack": 45,
+                "Sp. Defense": 55,
+                "Speed": 65
+            },
+            "desc": "Its claws and horns often break off. The broken\nclaws and horns can be used to carve plows for\ntilling farm fields.",
+            "evolves_to": []
+        },
+        {
+            "id": 29,
+            "name": "Nidoran♀",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 47,
+                "Defense": 52,
+                "Sp. Attack": 40,
+                "Sp. Defense": 40,
+                "Speed": 41
+            },
+            "desc": "Nidoran♀ has barbs that secrete a powerful poison.\nThey are thought to have developed as protection for\nthis small-bodied Pokémon. When enraged, it releases\na horrible toxin from its horn.",
+            "evolves_to": [
+                30
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Nidorina",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 70,
+                "Attack": 62,
+                "Defense": 67,
+                "Sp. Attack": 55,
+                "Sp. Defense": 55,
+                "Speed": 56
+            },
+            "desc": "When Nidorina are with their friends or family, they keep\ntheir barbs tucked away to prevent hurting each other.\nThis Pokémon appears to become nervous if separated\nfrom the others.",
+            "evolves_to": [
+                31
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Nidoqueen",
+            "type": [
+                "Poison",
+                "Ground"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 92,
+                "Defense": 87,
+                "Sp. Attack": 75,
+                "Sp. Defense": 85,
+                "Speed": 76
+            },
+            "desc": "Nidoqueen’s body is encased in extremely hard scales.\nIt is adept at sending foes flying with harsh tackles. This\nPokémon is at its strongest when it is defending its young.",
+            "evolves_to": []
+        },
+        {
+            "id": 32,
+            "name": "Nidoran♂",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 46,
+                "Attack": 57,
+                "Defense": 40,
+                "Sp. Attack": 40,
+                "Sp. Defense": 40,
+                "Speed": 50
+            },
+            "desc": "Nidoran♂ has developed muscles for moving its ears. Thanks\nto them, the ears can be freely moved in any direction. Even\nthe slightest sound does not escape this Pokémon’s notice.",
+            "evolves_to": [
+                33
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Nidorino",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 61,
+                "Attack": 72,
+                "Defense": 57,
+                "Sp. Attack": 55,
+                "Sp. Defense": 55,
+                "Speed": 65
+            },
+            "desc": "Nidorino has a horn that is harder than a diamond. If it senses\na hostile presence, all the barbs on its back bristle up at once,\nand it challenges the foe with all its might.",
+            "evolves_to": [
+                34
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Nidoking",
+            "type": [
+                "Poison",
+                "Ground"
+            ],
+            "attr": {
+                "HP": 81,
+                "Attack": 102,
+                "Defense": 77,
+                "Sp. Attack": 85,
+                "Sp. Defense": 75,
+                "Speed": 85
+            },
+            "desc": "Nidoking’s thick tail packs enormously destructive power.\nWith one swing, it can topple a metal transmission tower. Once\nthis Pokémon goes on a rampage, there is no stopping it.",
+            "evolves_to": []
+        },
+        {
+            "id": 35,
+            "name": "Clefairy",
+            "type": [
+                "Fairy"
+            ],
+            "attr": {
+                "HP": 70,
+                "Attack": 45,
+                "Defense": 48,
+                "Sp. Attack": 60,
+                "Sp. Defense": 65,
+                "Speed": 35
+            },
+            "desc": "They’re popular, but they’re rare. Trainers who\nshow them off recklessly may be targeted\nby thieves.",
+            "evolves_to": [
+                36
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Clefable",
+            "type": [
+                "Fairy"
+            ],
+            "attr": {
+                "HP": 95,
+                "Attack": 70,
+                "Defense": 73,
+                "Sp. Attack": 95,
+                "Sp. Defense": 90,
+                "Speed": 60
+            },
+            "desc": "It can’t help but hear a pin drop from over half\na mile away, so it lives deep in the mountains\nwhere there aren’t many people or Pokémon.",
+            "evolves_to": []
+        },
+        {
+            "id": 37,
+            "name": "Vulpix",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 38,
+                "Attack": 41,
+                "Defense": 40,
+                "Sp. Attack": 50,
+                "Sp. Defense": 65,
+                "Speed": 65
+            },
+            "desc": "Its beautiful tails have made it very popular.\nHowever, if it’s not brushed diligently, it will\nbe a mass of tangles before you know it.",
+            "evolves_to": [
+                38
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Ninetales",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 73,
+                "Attack": 76,
+                "Defense": 75,
+                "Sp. Attack": 81,
+                "Sp. Defense": 100,
+                "Speed": 100
+            },
+            "desc": "It is vindictive and relentless by nature.\nThose who cross it even once will be cursed for\na thousand years, along with their descendants.",
+            "evolves_to": []
+        },
+        {
+            "id": 39,
+            "name": "Jigglypuff",
+            "type": [
+                "Normal",
+                "Fairy"
+            ],
+            "attr": {
+                "HP": 115,
+                "Attack": 45,
+                "Defense": 20,
+                "Sp. Attack": 45,
+                "Sp. Defense": 25,
+                "Speed": 20
+            },
+            "desc": "Recordings of Jigglypuff’s strange lullabies can\nbe purchased from department stores. These\nCDs can be found near the bedding area.",
+            "evolves_to": [
+                40
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Wigglytuff",
+            "type": [
+                "Normal",
+                "Fairy"
+            ],
+            "attr": {
+                "HP": 140,
+                "Attack": 70,
+                "Defense": 45,
+                "Sp. Attack": 85,
+                "Sp. Defense": 50,
+                "Speed": 45
+            },
+            "desc": "Thanks to its bouncy body and fine fur,\nthis Pokémon is sought after. Holding one\nin your arms while you sleep feels great.",
+            "evolves_to": []
+        },
+        {
+            "id": 41,
+            "name": "Zubat",
+            "type": [
+                "Poison",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 45,
+                "Defense": 35,
+                "Sp. Attack": 30,
+                "Sp. Defense": 40,
+                "Speed": 55
+            },
+            "desc": "It has no eyeballs, so it can’t see. It checks its\nsurroundings via the ultrasonic waves it emits\nfrom its mouth.",
+            "evolves_to": [
+                42
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Golbat",
+            "type": [
+                "Poison",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 75,
+                "Attack": 80,
+                "Defense": 70,
+                "Sp. Attack": 65,
+                "Sp. Defense": 75,
+                "Speed": 90
+            },
+            "desc": "Every once in a while, you’ll see a Golbat that’s\nmissing some fangs. This happens when hunger\ndrives it to try biting a Steel-type Pokémon.",
+            "evolves_to": [
+                169
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Oddish",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 45,
+                "Attack": 50,
+                "Defense": 55,
+                "Sp. Attack": 75,
+                "Sp. Defense": 65,
+                "Speed": 30
+            },
+            "desc": "Oddish searches for fertile, nutrient-rich soil, then plants itself.\nDuring the daytime, while it is planted, this Pokémon’s feet\nare thought to change shape and become similar to the roots\nof trees.",
+            "evolves_to": [
+                44
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Gloom",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 65,
+                "Defense": 70,
+                "Sp. Attack": 85,
+                "Sp. Defense": 75,
+                "Speed": 40
+            },
+            "desc": "From its mouth Gloom drips honey that smells absolutely\nhorrible. Apparently, it loves the horrid stench. It sniffs the\nnoxious fumes and then drools even more of its honey.",
+            "evolves_to": [
+                45,
+                182
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Vileplume",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 75,
+                "Attack": 80,
+                "Defense": 85,
+                "Sp. Attack": 110,
+                "Sp. Defense": 90,
+                "Speed": 50
+            },
+            "desc": "Vileplume has the world’s largest petals. They are used to\nattract prey that are then doused with toxic spores. Once the\nprey are immobilized, this Pokémon catches and devours them.",
+            "evolves_to": []
+        },
+        {
+            "id": 46,
+            "name": "Paras",
+            "type": [
+                "Bug",
+                "Grass"
+            ],
+            "attr": {
+                "HP": 35,
+                "Attack": 70,
+                "Defense": 55,
+                "Sp. Attack": 45,
+                "Sp. Defense": 55,
+                "Speed": 25
+            },
+            "desc": "Whether it’s due to a lack of moisture or a lack\nof nutrients, in Alola the mushrooms on Paras\ndon’t grow up quite right.",
+            "evolves_to": [
+                47
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Parasect",
+            "type": [
+                "Bug",
+                "Grass"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 95,
+                "Defense": 80,
+                "Sp. Attack": 60,
+                "Sp. Defense": 80,
+                "Speed": 30
+            },
+            "desc": "The bug is mostly dead, with the mushroom on\nits back having become the main body. If the\nmushroom comes off, the bug stops moving.",
+            "evolves_to": []
+        },
+        {
+            "id": 48,
+            "name": "Venonat",
+            "type": [
+                "Bug",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 55,
+                "Defense": 50,
+                "Sp. Attack": 40,
+                "Sp. Defense": 55,
+                "Speed": 45
+            },
+            "desc": "Venonat is said to have evolved with a coat of thin, stiff hair\nthat covers its entire body for protection. It possesses large\neyes that never fail to spot even minuscule prey.",
+            "evolves_to": [
+                49
+            ]
+        },
+        {
+            "id": 49,
+            "name": "Venomoth",
+            "type": [
+                "Bug",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 70,
+                "Attack": 65,
+                "Defense": 60,
+                "Sp. Attack": 90,
+                "Sp. Defense": 75,
+                "Speed": 90
+            },
+            "desc": "Venomoth is nocturnal—it is a Pokémon that only becomes\nactive at night. Its favorite prey are small insects that gather\naround streetlights, attracted by the light in the darkness.",
+            "evolves_to": []
+        },
+        {
+            "id": 50,
+            "name": "Diglett",
+            "type": [
+                "Ground"
+            ],
+            "attr": {
+                "HP": 10,
+                "Attack": 55,
+                "Defense": 25,
+                "Sp. Attack": 35,
+                "Sp. Defense": 45,
+                "Speed": 95
+            },
+            "desc": "It travels through tunnels that it digs\nunderground. It hates sunlight, so it comes\nout only after the sun goes down.",
+            "evolves_to": [
+                51
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Dugtrio",
+            "type": [
+                "Ground"
+            ],
+            "attr": {
+                "HP": 35,
+                "Attack": 100,
+                "Defense": 50,
+                "Sp. Attack": 50,
+                "Sp. Defense": 70,
+                "Speed": 120
+            },
+            "desc": "While the three of them normally get along\nsplendidly, on rare occasions a huge fight will\nbreak out over which head gets to eat first.",
+            "evolves_to": []
+        },
+        {
+            "id": 52,
+            "name": "Meowth",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 45,
+                "Defense": 35,
+                "Sp. Attack": 40,
+                "Sp. Defense": 40,
+                "Speed": 90
+            },
+            "desc": "When visiting a junkyard, you may catch sight\nof it having an intense fight with Murkrow over\nshiny objects.",
+            "evolves_to": [
+                53
+            ]
+        },
+        {
+            "id": 53,
+            "name": "Persian",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 70,
+                "Defense": 60,
+                "Sp. Attack": 65,
+                "Sp. Defense": 65,
+                "Speed": 115
+            },
+            "desc": "Although the jewel on its forehead appears to\nbe a different color than those of Alolan\nPersian, it’s mostly made of the same material.",
+            "evolves_to": []
+        },
+        {
+            "id": 54,
+            "name": "Psyduck",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 52,
+                "Defense": 48,
+                "Sp. Attack": 65,
+                "Sp. Defense": 50,
+                "Speed": 55
+            },
+            "desc": "Using psychokinesis gives it a headache, so it\nnormally passes the time spacing out and doing\nas little as possible.",
+            "evolves_to": [
+                55
+            ]
+        },
+        {
+            "id": 55,
+            "name": "Golduck",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 82,
+                "Defense": 78,
+                "Sp. Attack": 95,
+                "Sp. Defense": 80,
+                "Speed": 85
+            },
+            "desc": "Even fast-swimming fish Pokémon can be\ndisabled by Golduck. It brings them to a\nstandstill and seizes them.",
+            "evolves_to": []
+        },
+        {
+            "id": 56,
+            "name": "Mankey",
+            "type": [
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 80,
+                "Defense": 35,
+                "Sp. Attack": 35,
+                "Sp. Defense": 45,
+                "Speed": 70
+            },
+            "desc": "The smallest of things could cause it to lose its\ntemper. Because it doesn’t hold in its stress,\nthis Pokémon can live a long time.",
+            "evolves_to": [
+                57
+            ]
+        },
+        {
+            "id": 57,
+            "name": "Primeape",
+            "type": [
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 105,
+                "Defense": 60,
+                "Sp. Attack": 60,
+                "Sp. Defense": 70,
+                "Speed": 95
+            },
+            "desc": "It will never forgive opponents who have\nangered it. Even after it has beaten them down\nuntil they can’t move, it never ever forgives.",
+            "evolves_to": []
+        },
+        {
+            "id": 58,
+            "name": "Growlithe",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 70,
+                "Defense": 45,
+                "Sp. Attack": 70,
+                "Sp. Defense": 50,
+                "Speed": 60
+            },
+            "desc": "While it’s quite friendly toward humans once it’s\ngrown used to them, in the wild it must be quite\nfierce to defend its territory from Rockruff.",
+            "evolves_to": [
+                59
+            ]
+        },
+        {
+            "id": 59,
+            "name": "Arcanine",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 110,
+                "Defense": 80,
+                "Sp. Attack": 100,
+                "Sp. Defense": 80,
+                "Speed": 95
+            },
+            "desc": "Legends tell of its fighting alongside a general\nand conquering a whole country.",
+            "evolves_to": []
+        },
+        {
+            "id": 60,
+            "name": "Poliwag",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 50,
+                "Defense": 40,
+                "Sp. Attack": 40,
+                "Sp. Defense": 40,
+                "Speed": 90
+            },
+            "desc": "Despite the danger, it wants to come up on land.\nSo it does its best to waddle along, but when\nan enemy finds it, it rushes back to the water.",
+            "evolves_to": [
+                61
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Poliwhirl",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 65,
+                "Defense": 65,
+                "Sp. Attack": 50,
+                "Sp. Defense": 50,
+                "Speed": 90
+            },
+            "desc": "Although it has become capable of living on\nland, it spends its time in the water, where\nits prey, fish Pokémon, are plentiful.",
+            "evolves_to": [
+                62,
+                186
+            ]
+        },
+        {
+            "id": 62,
+            "name": "Poliwrath",
+            "type": [
+                "Water",
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 95,
+                "Defense": 95,
+                "Sp. Attack": 70,
+                "Sp. Defense": 90,
+                "Speed": 70
+            },
+            "desc": "It’s quite a gifted swimmer, even among\nWater-type Pokémon, but it normally spends its\ntime on land.",
+            "evolves_to": []
+        },
+        {
+            "id": 63,
+            "name": "Abra",
+            "type": [
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 25,
+                "Attack": 20,
+                "Defense": 15,
+                "Sp. Attack": 105,
+                "Sp. Defense": 55,
+                "Speed": 90
+            },
+            "desc": "It uses various psychic powers even while it’s\nsleeping, so you can’t tell whether or not\nit’s awake.",
+            "evolves_to": [
+                64
+            ]
+        },
+        {
+            "id": 64,
+            "name": "Kadabra",
+            "type": [
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 35,
+                "Defense": 30,
+                "Sp. Attack": 120,
+                "Sp. Defense": 70,
+                "Speed": 105
+            },
+            "desc": "It stares at a silver spoon to amplify its psychic\npowers before it lets loose. Apparently, gold\nspoons are no good.",
+            "evolves_to": [
+                65
+            ]
+        },
+        {
+            "id": 65,
+            "name": "Alakazam",
+            "type": [
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 50,
+                "Defense": 45,
+                "Sp. Attack": 135,
+                "Sp. Defense": 95,
+                "Speed": 120
+            },
+            "desc": "Alakazam uses its psychic powers to make the\nspoons it carries. Each spoon is an original that\nthere’s only one of in the whole world.",
+            "evolves_to": []
+        },
+        {
+            "id": 66,
+            "name": "Machop",
+            "type": [
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 70,
+                "Attack": 80,
+                "Defense": 50,
+                "Sp. Attack": 35,
+                "Sp. Defense": 35,
+                "Speed": 35
+            },
+            "desc": "Once this Pokémon has gained enough\nconfidence and muscle from training with its\nfriends, it challenges Makuhita to a battle.",
+            "evolves_to": [
+                67
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Machoke",
+            "type": [
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 100,
+                "Defense": 70,
+                "Sp. Attack": 50,
+                "Sp. Defense": 60,
+                "Speed": 45
+            },
+            "desc": "When it encounters an enemy that’s truly\nmighty, this Pokémon removes the power-save\nbelt from its waist and unleashes its full power.",
+            "evolves_to": [
+                68
+            ]
+        },
+        {
+            "id": 68,
+            "name": "Machamp",
+            "type": [
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 130,
+                "Defense": 80,
+                "Sp. Attack": 65,
+                "Sp. Defense": 85,
+                "Speed": 55
+            },
+            "desc": "It grasps its opponents with its four arms and\ntwists them up in an intricate hold. People call\nit “the Machamp special.”",
+            "evolves_to": []
+        },
+        {
+            "id": 69,
+            "name": "Bellsprout",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 75,
+                "Defense": 35,
+                "Sp. Attack": 70,
+                "Sp. Defense": 30,
+                "Speed": 40
+            },
+            "desc": "Bellsprout’s thin and flexible body lets it bend and sway\nto avoid any attack, however strong it may be. From its mouth,\nthis Pokémon spits a corrosive fluid that melts even iron.",
+            "evolves_to": [
+                70
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Weepinbell",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 90,
+                "Defense": 50,
+                "Sp. Attack": 85,
+                "Sp. Defense": 45,
+                "Speed": 55
+            },
+            "desc": "Weepinbell has a large hook on its rear end. At night, the\nPokémon hooks on to a tree branch and goes to sleep.\nIf it moves around in its sleep, it may wake up to find itself\non the ground.",
+            "evolves_to": [
+                71
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Victreebel",
+            "type": [
+                "Grass",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 105,
+                "Defense": 65,
+                "Sp. Attack": 100,
+                "Sp. Defense": 70,
+                "Speed": 70
+            },
+            "desc": "Victreebel has a long vine that extends from its head.\nThis vine is waved and flicked about as if it were an animal\nto attract prey. When an unsuspecting prey draws near,\nthis Pokémon swallows it whole.",
+            "evolves_to": []
+        },
+        {
+            "id": 72,
+            "name": "Tentacool",
+            "type": [
+                "Water",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 40,
+                "Defense": 35,
+                "Sp. Attack": 50,
+                "Sp. Defense": 100,
+                "Speed": 70
+            },
+            "desc": "It drifts through the sea searching for prey.\nIts poisonous tentacles break off sometimes,\nbut after a while, they grow back.",
+            "evolves_to": [
+                73
+            ]
+        },
+        {
+            "id": 73,
+            "name": "Tentacruel",
+            "type": [
+                "Water",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 70,
+                "Defense": 65,
+                "Sp. Attack": 80,
+                "Sp. Defense": 120,
+                "Speed": 100
+            },
+            "desc": "It fires off ultrasonic waves from its red orbs\nto weaken its prey, and then it wraps them up\nin its 80 tentacles.",
+            "evolves_to": []
+        },
+        {
+            "id": 74,
+            "name": "Geodude",
+            "type": [
+                "Rock",
+                "Ground"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 80,
+                "Defense": 100,
+                "Sp. Attack": 30,
+                "Sp. Defense": 30,
+                "Speed": 20
+            },
+            "desc": "Geodude that have lived a long life have had all\ntheir edges smoothed out until they’re totally\nround. They also have a calm, quiet disposition.",
+            "evolves_to": [
+                75
+            ]
+        },
+        {
+            "id": 75,
+            "name": "Graveler",
+            "type": [
+                "Rock",
+                "Ground"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 95,
+                "Defense": 115,
+                "Sp. Attack": 45,
+                "Sp. Defense": 45,
+                "Speed": 35
+            },
+            "desc": "It climbs up cliffs as it heads toward the peak\nof a mountain. As soon as it reaches the summit,\nit rolls back down the way it came.",
+            "evolves_to": [
+                76
+            ]
+        },
+        {
+            "id": 76,
+            "name": "Golem",
+            "type": [
+                "Rock",
+                "Ground"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 120,
+                "Defense": 130,
+                "Sp. Attack": 55,
+                "Sp. Defense": 65,
+                "Speed": 45
+            },
+            "desc": "When Golem grow old, they stop shedding their\nshells. Those that have lived a long, long time\nhave shells green with moss.",
+            "evolves_to": []
+        },
+        {
+            "id": 77,
+            "name": "Ponyta",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 85,
+                "Defense": 55,
+                "Sp. Attack": 65,
+                "Sp. Defense": 65,
+                "Speed": 90
+            },
+            "desc": "Ponyta is very weak at birth. It can barely stand up.\nThis Pokémon becomes stronger by stumbling and\nfalling to keep up with its parent.",
+            "evolves_to": [
+                78
+            ]
+        },
+        {
+            "id": 78,
+            "name": "Rapidash",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 100,
+                "Defense": 70,
+                "Sp. Attack": 80,
+                "Sp. Defense": 80,
+                "Speed": 105
+            },
+            "desc": "Rapidash usually can be seen casually cantering in the fields\nand plains. However, when this Pokémon turns serious, its\nfiery manes flare and blaze as it gallops its way up to 150 mph.",
+            "evolves_to": []
+        },
+        {
+            "id": 79,
+            "name": "Slowpoke",
+            "type": [
+                "Water",
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 65,
+                "Defense": 65,
+                "Sp. Attack": 40,
+                "Sp. Defense": 40,
+                "Speed": 15
+            },
+            "desc": "There are some places where Slowpoke is\nworshiped because of a long-standing belief\nthat whenever Slowpoke yawns, it rains.",
+            "evolves_to": [
+                80,
+                199
+            ]
+        },
+        {
+            "id": 80,
+            "name": "Slowbro",
+            "type": [
+                "Water",
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 95,
+                "Attack": 75,
+                "Defense": 110,
+                "Sp. Attack": 100,
+                "Sp. Defense": 80,
+                "Speed": 30
+            },
+            "desc": "Spacing out is basically all it does. It turns back\ninto Slowpoke if its tail, along with Shellder,\nbreaks off.",
+            "evolves_to": []
+        },
+        {
+            "id": 81,
+            "name": "Magnemite",
+            "type": [
+                "Electric",
+                "Steel"
+            ],
+            "attr": {
+                "HP": 25,
+                "Attack": 35,
+                "Defense": 70,
+                "Sp. Attack": 95,
+                "Sp. Defense": 55,
+                "Speed": 45
+            },
+            "desc": "It’s frequently the cause of power outages,\nwhich is why some power plants send out\nelectrical signals that it can’t stand.",
+            "evolves_to": [
+                82
+            ]
+        },
+        {
+            "id": 82,
+            "name": "Magneton",
+            "type": [
+                "Electric",
+                "Steel"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 60,
+                "Defense": 95,
+                "Sp. Attack": 120,
+                "Sp. Defense": 70,
+                "Speed": 70
+            },
+            "desc": "Delicate equipment can malfunction in areas\ninhabited by Magneton, which send out\nmysterious electrical signals.",
+            "evolves_to": [
+                462
+            ]
+        },
+        {
+            "id": 83,
+            "name": "Farfetch'd",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 52,
+                "Attack": 90,
+                "Defense": 55,
+                "Sp. Attack": 58,
+                "Sp. Defense": 62,
+                "Speed": 60
+            },
+            "desc": "Farfetch’d is always seen with a stalk from a plant of some\nsort. Apparently, there are good stalks and bad stalks. This\nPokémon has been known to fight with others over stalks.",
+            "evolves_to": []
+        },
+        {
+            "id": 84,
+            "name": "Doduo",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 35,
+                "Attack": 85,
+                "Defense": 45,
+                "Sp. Attack": 35,
+                "Sp. Defense": 35,
+                "Speed": 75
+            },
+            "desc": "Doduo’s two heads contain completely identical brains. A\nscientific study reported that on rare occasions, there will be\nexamples of this Pokémon possessing different sets of brains.",
+            "evolves_to": [
+                85
+            ]
+        },
+        {
+            "id": 85,
+            "name": "Dodrio",
+            "type": [
+                "Normal",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 110,
+                "Defense": 70,
+                "Sp. Attack": 60,
+                "Sp. Defense": 60,
+                "Speed": 110
+            },
+            "desc": "Apparently, the heads aren’t the only parts of the body that\nDodrio has three of. It has three sets of hearts and lungs as\nwell, so it is capable of running long distances without rest.",
+            "evolves_to": []
+        },
+        {
+            "id": 86,
+            "name": "Seel",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 45,
+                "Defense": 55,
+                "Sp. Attack": 45,
+                "Sp. Defense": 70,
+                "Speed": 45
+            },
+            "desc": "It has always been supposed that Seel live only\nin cold seas. Their having shown up in Alola is\na mystery.",
+            "evolves_to": [
+                87
+            ]
+        },
+        {
+            "id": 87,
+            "name": "Dewgong",
+            "type": [
+                "Water",
+                "Ice"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 70,
+                "Defense": 80,
+                "Sp. Attack": 70,
+                "Sp. Defense": 95,
+                "Speed": 70
+            },
+            "desc": "It swims through the ocean at a speed of eight\nknots, searching for Pokémon that will become\nits prey. It’s especially fond of Wishiwashi.",
+            "evolves_to": []
+        },
+        {
+            "id": 88,
+            "name": "Grimer",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 80,
+                "Defense": 50,
+                "Sp. Attack": 40,
+                "Sp. Defense": 50,
+                "Speed": 25
+            },
+            "desc": "It was born from sludge on the ocean floor. In a\nsterile environment, the germs within its body\ncan’t multiply, and it dies.",
+            "evolves_to": [
+                89
+            ]
+        },
+        {
+            "id": 89,
+            "name": "Muk",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 105,
+                "Attack": 105,
+                "Defense": 75,
+                "Sp. Attack": 65,
+                "Sp. Defense": 100,
+                "Speed": 50
+            },
+            "desc": "Their food sources have decreased, and their\nnumbers have declined sharply. Sludge ponds\nare being built to prevent their extinction.",
+            "evolves_to": []
+        },
+        {
+            "id": 90,
+            "name": "Shellder",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 30,
+                "Attack": 65,
+                "Defense": 100,
+                "Sp. Attack": 45,
+                "Sp. Defense": 25,
+                "Speed": 40
+            },
+            "desc": "The sand that accumulates inside its shell\neventually becomes a pearl. But the pearl gets\nin the way, so it spits it out and discards it.",
+            "evolves_to": [
+                91
+            ]
+        },
+        {
+            "id": 91,
+            "name": "Cloyster",
+            "type": [
+                "Water",
+                "Ice"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 95,
+                "Defense": 180,
+                "Sp. Attack": 85,
+                "Sp. Defense": 45,
+                "Speed": 70
+            },
+            "desc": "If areas of Cloyster’s very hard shell get\ndamaged, those areas swell, gradually growing\ninto large sharp spikes.",
+            "evolves_to": []
+        },
+        {
+            "id": 92,
+            "name": "Gastly",
+            "type": [
+                "Ghost",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 30,
+                "Attack": 35,
+                "Defense": 30,
+                "Sp. Attack": 100,
+                "Sp. Defense": 35,
+                "Speed": 80
+            },
+            "desc": "It’s said that gas emanating from a graveyard\nwas possessed by the grievances of the\ndeceased and thus became a Pokémon.",
+            "evolves_to": [
+                93
+            ]
+        },
+        {
+            "id": 93,
+            "name": "Haunter",
+            "type": [
+                "Ghost",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 45,
+                "Attack": 50,
+                "Defense": 45,
+                "Sp. Attack": 115,
+                "Sp. Defense": 55,
+                "Speed": 95
+            },
+            "desc": "On moonless nights, Haunter searches for\nsomeone to curse, so it’s best not to go out\nwalking around.",
+            "evolves_to": [
+                94
+            ]
+        },
+        {
+            "id": 94,
+            "name": "Gengar",
+            "type": [
+                "Ghost",
+                "Poison"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 65,
+                "Defense": 60,
+                "Sp. Attack": 130,
+                "Sp. Defense": 75,
+                "Speed": 110
+            },
+            "desc": "You can hear tales told all over the world about\nhow Gengar will pay a visit to children who\nare naughty.",
+            "evolves_to": []
+        },
+        {
+            "id": 95,
+            "name": "Onix",
+            "type": [
+                "Rock",
+                "Ground"
+            ],
+            "attr": {
+                "HP": 35,
+                "Attack": 45,
+                "Defense": 160,
+                "Sp. Attack": 30,
+                "Sp. Defense": 45,
+                "Speed": 70
+            },
+            "desc": "Onix has a magnet in its brain. It acts as a compass so that\nthis Pokémon does not lose direction while it is tunneling.\nAs it grows older, its body becomes increasingly rounder\nand smoother.",
+            "evolves_to": [
+                208
+            ]
+        },
+        {
+            "id": 96,
+            "name": "Drowzee",
+            "type": [
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 48,
+                "Defense": 45,
+                "Sp. Attack": 43,
+                "Sp. Defense": 90,
+                "Speed": 42
+            },
+            "desc": "It can be spotted near recreational facilities,\nintending to eat the pleasant dreams of children\nwho enjoyed themselves there that day.",
+            "evolves_to": [
+                97
+            ]
+        },
+        {
+            "id": 97,
+            "name": "Hypno",
+            "type": [
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 85,
+                "Attack": 73,
+                "Defense": 70,
+                "Sp. Attack": 73,
+                "Sp. Defense": 115,
+                "Speed": 67
+            },
+            "desc": "In Alola, Komala is Hypno’s main target. It rarely\nharms people.",
+            "evolves_to": []
+        },
+        {
+            "id": 98,
+            "name": "Krabby",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 30,
+                "Attack": 105,
+                "Defense": 90,
+                "Sp. Attack": 25,
+                "Sp. Defense": 25,
+                "Speed": 50
+            },
+            "desc": "Krabby live on beaches, burrowed inside holes dug into\nthe sand. On sandy beaches with little in the way of food,\nthese Pokémon can be seen squabbling with each other\nover territory.",
+            "evolves_to": [
+                99
+            ]
+        },
+        {
+            "id": 99,
+            "name": "Kingler",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 130,
+                "Defense": 115,
+                "Sp. Attack": 50,
+                "Sp. Defense": 50,
+                "Speed": 75
+            },
+            "desc": "Kingler has an enormous, oversized claw. It waves this huge\nclaw in the air to communicate with others. However, because\nthe claw is so heavy, the Pokémon quickly tires.",
+            "evolves_to": []
+        },
+        {
+            "id": 100,
+            "name": "Voltorb",
+            "type": [
+                "Electric"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 30,
+                "Defense": 50,
+                "Sp. Attack": 55,
+                "Sp. Defense": 55,
+                "Speed": 100
+            },
+            "desc": "Voltorb is extremely sensitive—it explodes at the slightest\nof shocks. It is rumored that it was first created when a\nPoké Ball was exposed to a powerful pulse of energy.",
+            "evolves_to": [
+                101
+            ]
+        },
+        {
+            "id": 101,
+            "name": "Electrode",
+            "type": [
+                "Electric"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 50,
+                "Defense": 70,
+                "Sp. Attack": 80,
+                "Sp. Defense": 80,
+                "Speed": 150
+            },
+            "desc": "One of Electrode’s characteristics is its attraction to electricity.\nIt is a problematical Pokémon that congregates mostly at\nelectrical power plants to feed on electricity that has just\nbeen generated.",
+            "evolves_to": []
+        },
+        {
+            "id": 102,
+            "name": "Exeggcute",
+            "type": [
+                "Grass",
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 40,
+                "Defense": 80,
+                "Sp. Attack": 60,
+                "Sp. Defense": 45,
+                "Speed": 40
+            },
+            "desc": "Six of them form a single Pokémon. Should one\nof the six be lost, the next morning there will\nonce more be six.",
+            "evolves_to": [
+                103
+            ]
+        },
+        {
+            "id": 103,
+            "name": "Exeggutor",
+            "type": [
+                "Grass",
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 95,
+                "Attack": 95,
+                "Defense": 85,
+                "Sp. Attack": 125,
+                "Sp. Defense": 75,
+                "Speed": 55
+            },
+            "desc": "It engages its enemies using psychic powers.\nEach of its three heads fires off psychokinetic\nenergy, tripling its power.",
+            "evolves_to": []
+        },
+        {
+            "id": 104,
+            "name": "Cubone",
+            "type": [
+                "Ground"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 50,
+                "Defense": 95,
+                "Sp. Attack": 40,
+                "Sp. Defense": 50,
+                "Speed": 35
+            },
+            "desc": "At night, it weeps loudly for its dead mother,\nbut those cries only attract its natural\nenemy—Mandibuzz.",
+            "evolves_to": [
+                105
+            ]
+        },
+        {
+            "id": 105,
+            "name": "Marowak",
+            "type": [
+                "Ground"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 80,
+                "Defense": 110,
+                "Sp. Attack": 50,
+                "Sp. Defense": 80,
+                "Speed": 45
+            },
+            "desc": "It throws bones at Mandibuzz to knock it down.\nIt’s thought that Marowak is trying to avenge\nits parent.",
+            "evolves_to": []
+        },
+        {
+            "id": 106,
+            "name": "Hitmonlee",
+            "type": [
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 120,
+                "Defense": 53,
+                "Sp. Attack": 35,
+                "Sp. Defense": 110,
+                "Speed": 87
+            },
+            "desc": "Hitmonlee’s legs freely contract and stretch. Using these\nspringlike legs, it bowls over foes with devastating kicks.\nAfter battle, it rubs down its legs and loosens the muscles\nto overcome fatigue.",
+            "evolves_to": []
+        },
+        {
+            "id": 107,
+            "name": "Hitmonchan",
+            "type": [
+                "Fighting"
+            ],
+            "attr": {
+                "HP": 50,
+                "Attack": 105,
+                "Defense": 79,
+                "Sp. Attack": 35,
+                "Sp. Defense": 110,
+                "Speed": 76
+            },
+            "desc": "Hitmonchan is said to possess the spirit of a boxer who had\nbeen working toward a world championship. This Pokémon\nhas an indomitable spirit and will never give up in the face\nof adversity.",
+            "evolves_to": []
+        },
+        {
+            "id": 108,
+            "name": "Lickitung",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 55,
+                "Defense": 75,
+                "Sp. Attack": 60,
+                "Sp. Defense": 75,
+                "Speed": 30
+            },
+            "desc": "It checks out whatever’s around it by licking\neverything. If you don’t clean off a spot where\nit’s licked you, you’ll break out in a rash!",
+            "evolves_to": [
+                463
+            ]
+        },
+        {
+            "id": 109,
+            "name": "Koffing",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 65,
+                "Defense": 95,
+                "Sp. Attack": 60,
+                "Sp. Defense": 45,
+                "Speed": 35
+            },
+            "desc": "Koffing embodies toxic substances. It mixes the toxins with raw\ngarbage to set off a chemical reaction that results in a terribly\npowerful poison gas. The higher the temperature, the more gas\nis concocted by this Pokémon.",
+            "evolves_to": [
+                110
+            ]
+        },
+        {
+            "id": 110,
+            "name": "Weezing",
+            "type": [
+                "Poison"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 90,
+                "Defense": 120,
+                "Sp. Attack": 85,
+                "Sp. Defense": 70,
+                "Speed": 60
+            },
+            "desc": "Weezing alternately shrinks and inflates its twin bodies to mix\ntogether toxic gases inside. The more the gases are mixed,\nthe more powerful the toxins become. The Pokémon also\nbecomes more putrid.",
+            "evolves_to": []
+        },
+        {
+            "id": 111,
+            "name": "Rhyhorn",
+            "type": [
+                "Ground",
+                "Rock"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 85,
+                "Defense": 95,
+                "Sp. Attack": 30,
+                "Sp. Defense": 30,
+                "Speed": 25
+            },
+            "desc": "Rhyhorn’s brain is very small. It is so dense, while on a run\nit forgets why it started running in the first place. It apparently\nremembers sometimes if it demolishes something.",
+            "evolves_to": [
+                112
+            ]
+        },
+        {
+            "id": 112,
+            "name": "Rhydon",
+            "type": [
+                "Ground",
+                "Rock"
+            ],
+            "attr": {
+                "HP": 105,
+                "Attack": 130,
+                "Defense": 120,
+                "Sp. Attack": 45,
+                "Sp. Defense": 45,
+                "Speed": 40
+            },
+            "desc": "Rhydon has a horn that serves as a drill. It is used for\ndestroying rocks and boulders. This Pokémon occasionally\nrams into streams of magma, but the armor-like hide prevents\nit from feeling the heat.",
+            "evolves_to": [
+                464
+            ]
+        },
+        {
+            "id": 113,
+            "name": "Chansey",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 250,
+                "Attack": 5,
+                "Defense": 5,
+                "Sp. Attack": 35,
+                "Sp. Defense": 105,
+                "Speed": 50
+            },
+            "desc": "It seems that other Pokémon’s efforts to take\nits delicious, nutritious egg away from it caused\nChansey to get faster at fleeing.",
+            "evolves_to": [
+                242
+            ]
+        },
+        {
+            "id": 114,
+            "name": "Tangela",
+            "type": [
+                "Grass"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 55,
+                "Defense": 115,
+                "Sp. Attack": 100,
+                "Sp. Defense": 40,
+                "Speed": 60
+            },
+            "desc": "Tangela’s vines snap off easily if they are grabbed. This\nhappens without pain, allowing it to make a quick getaway.\nThe lost vines are replaced by newly grown vines the very\nnext day.",
+            "evolves_to": [
+                465
+            ]
+        },
+        {
+            "id": 115,
+            "name": "Kangaskhan",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 105,
+                "Attack": 95,
+                "Defense": 80,
+                "Sp. Attack": 40,
+                "Sp. Defense": 80,
+                "Speed": 90
+            },
+            "desc": "Kangaskhan protects its child by keeping it in\nits pouch. It has zero forgiveness for those\nwho harm its child and will beat them down.",
+            "evolves_to": []
+        },
+        {
+            "id": 116,
+            "name": "Horsea",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 30,
+                "Attack": 40,
+                "Defense": 70,
+                "Sp. Attack": 70,
+                "Sp. Defense": 25,
+                "Speed": 60
+            },
+            "desc": "If Horsea senses danger, it will reflexively spray a dense\nblack ink from its mouth and try to escape. This Pokémon\nswims by cleverly flapping the fin on its back.",
+            "evolves_to": [
+                117
+            ]
+        },
+        {
+            "id": 117,
+            "name": "Seadra",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 65,
+                "Defense": 95,
+                "Sp. Attack": 95,
+                "Sp. Defense": 45,
+                "Speed": 85
+            },
+            "desc": "Seadra generates whirlpools by spinning its body.\nThe whirlpools are strong enough to swallow even\nfishing boats. This Pokémon weakens prey with\nthese currents, then swallows it whole.",
+            "evolves_to": [
+                230
+            ]
+        },
+        {
+            "id": 118,
+            "name": "Goldeen",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 45,
+                "Attack": 67,
+                "Defense": 60,
+                "Sp. Attack": 35,
+                "Sp. Defense": 50,
+                "Speed": 63
+            },
+            "desc": "Although known for their splendid tail fins,\nGoldeen apparently compete among themselves\nto see whose horn is thickest and sharpest.",
+            "evolves_to": [
+                119
+            ]
+        },
+        {
+            "id": 119,
+            "name": "Seaking",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 92,
+                "Defense": 65,
+                "Sp. Attack": 65,
+                "Sp. Defense": 80,
+                "Speed": 68
+            },
+            "desc": "Its horn spins like a drill to steadily hollow out\nrocks—even harder ones. The coloration of the\nmale is more vivid.",
+            "evolves_to": []
+        },
+        {
+            "id": 120,
+            "name": "Staryu",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 30,
+                "Attack": 45,
+                "Defense": 55,
+                "Sp. Attack": 70,
+                "Sp. Defense": 55,
+                "Speed": 85
+            },
+            "desc": "In many places, there are folktales of stardust\nfalling into the ocean and becoming Staryu.",
+            "evolves_to": [
+                121
+            ]
+        },
+        {
+            "id": 121,
+            "name": "Starmie",
+            "type": [
+                "Water",
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 75,
+                "Defense": 85,
+                "Sp. Attack": 100,
+                "Sp. Defense": 85,
+                "Speed": 115
+            },
+            "desc": "Its sparkling core is called “the gem of the sea.”\nThis core can be made into high-priced\naccessories that are traded in secret.",
+            "evolves_to": []
+        },
+        {
+            "id": 122,
+            "name": "Mr. Mime",
+            "type": [
+                "Psychic",
+                "Fairy"
+            ],
+            "attr": {
+                "HP": 40,
+                "Attack": 45,
+                "Defense": 65,
+                "Sp. Attack": 100,
+                "Sp. Defense": 120,
+                "Speed": 90
+            },
+            "desc": "Its pantomime skills are wonderful. You may\nbecome enraptured while watching it, but next\nthing you know, Mr. Mime has made a real wall.",
+            "evolves_to": []
+        },
+        {
+            "id": 123,
+            "name": "Scyther",
+            "type": [
+                "Bug",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 70,
+                "Attack": 110,
+                "Defense": 80,
+                "Sp. Attack": 55,
+                "Sp. Defense": 80,
+                "Speed": 105
+            },
+            "desc": "Its two sharp scythes are more than just\nweapons. It uses them with dexterity to dress\nits prey before eating.",
+            "evolves_to": [
+                212
+            ]
+        },
+        {
+            "id": 124,
+            "name": "Jynx",
+            "type": [
+                "Ice",
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 50,
+                "Defense": 35,
+                "Sp. Attack": 115,
+                "Sp. Defense": 95,
+                "Speed": 95
+            },
+            "desc": "It sways its hips to a rhythm all its own. The\nprecise movements of Jynx living in Alola are\ntruly wonderful.",
+            "evolves_to": []
+        },
+        {
+            "id": 125,
+            "name": "Electabuzz",
+            "type": [
+                "Electric"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 83,
+                "Defense": 57,
+                "Sp. Attack": 95,
+                "Sp. Defense": 85,
+                "Speed": 105
+            },
+            "desc": "Electricity permeates its body. It swings\nits arms round and round to charge up\nelectricity before unleashing a punch.",
+            "evolves_to": [
+                466
+            ]
+        },
+        {
+            "id": 126,
+            "name": "Magmar",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 95,
+                "Defense": 57,
+                "Sp. Attack": 100,
+                "Sp. Defense": 85,
+                "Speed": 93
+            },
+            "desc": "Its entire body is burning. When it breathes,\nthe temperature rises. When it sneezes, flames\nshoot out!",
+            "evolves_to": [
+                467
+            ]
+        },
+        {
+            "id": 127,
+            "name": "Pinsir",
+            "type": [
+                "Bug"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 125,
+                "Defense": 100,
+                "Sp. Attack": 55,
+                "Sp. Defense": 70,
+                "Speed": 85
+            },
+            "desc": "It gets into territorial disputes with Vikavolt.\nFor some reason, it apparently gets along well\nwith Heracross in Alola.",
+            "evolves_to": []
+        },
+        {
+            "id": 128,
+            "name": "Tauros",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 75,
+                "Attack": 100,
+                "Defense": 95,
+                "Sp. Attack": 40,
+                "Sp. Defense": 70,
+                "Speed": 110
+            },
+            "desc": "They live in groups. The one with the longest,\nthickest, and most-scarred horns is the boss\nof the herd.",
+            "evolves_to": []
+        },
+        {
+            "id": 129,
+            "name": "Magikarp",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 20,
+                "Attack": 10,
+                "Defense": 55,
+                "Sp. Attack": 15,
+                "Sp. Defense": 20,
+                "Speed": 80
+            },
+            "desc": "In the distant past, they were fairly strong, but\nthey have become gradually weaker over time.",
+            "evolves_to": [
+                130
+            ]
+        },
+        {
+            "id": 130,
+            "name": "Gyarados",
+            "type": [
+                "Water",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 95,
+                "Attack": 125,
+                "Defense": 79,
+                "Sp. Attack": 60,
+                "Sp. Defense": 100,
+                "Speed": 81
+            },
+            "desc": "It fires hyper beams in all directions, burning the\nsurrounding area to ash. There are some regions\nwhere it’s called “the deity of destruction.”",
+            "evolves_to": []
+        },
+        {
+            "id": 131,
+            "name": "Lapras",
+            "type": [
+                "Water",
+                "Ice"
+            ],
+            "attr": {
+                "HP": 130,
+                "Attack": 85,
+                "Defense": 80,
+                "Sp. Attack": 85,
+                "Sp. Defense": 95,
+                "Speed": 60
+            },
+            "desc": "It likes swimming around with people on its\nback. In the Alola region, it’s an important means\nof transportation over water.",
+            "evolves_to": []
+        },
+        {
+            "id": 132,
+            "name": "Ditto",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 48,
+                "Attack": 48,
+                "Defense": 48,
+                "Sp. Attack": 48,
+                "Sp. Defense": 48,
+                "Speed": 48
+            },
+            "desc": "While it can transform into anything, each Ditto\napparently has its own strengths and\nweaknesses when it comes to transformations.",
+            "evolves_to": []
+        },
+        {
+            "id": 133,
+            "name": "Eevee",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 55,
+                "Attack": 55,
+                "Defense": 50,
+                "Sp. Attack": 45,
+                "Sp. Defense": 65,
+                "Speed": 55
+            },
+            "desc": "The question of why only Eevee has such\nunstable genes has still not been solved.",
+            "evolves_to": [
+                134,
+                135,
+                136,
+                196,
+                197,
+                470,
+                471,
+                700
+            ]
+        },
+        {
+            "id": 134,
+            "name": "Vaporeon",
+            "type": [
+                "Water"
+            ],
+            "attr": {
+                "HP": 130,
+                "Attack": 65,
+                "Defense": 60,
+                "Sp. Attack": 110,
+                "Sp. Defense": 95,
+                "Speed": 65
+            },
+            "desc": "Clean, clear waters are its usual habitat. When\nit’s about to be attacked by an invading enemy,\nit dives into the water to hide.",
+            "evolves_to": []
+        },
+        {
+            "id": 135,
+            "name": "Jolteon",
+            "type": [
+                "Electric"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 65,
+                "Defense": 60,
+                "Sp. Attack": 110,
+                "Sp. Defense": 95,
+                "Speed": 130
+            },
+            "desc": "Its lungs contain an organ that creates\nelectricity. The crackling sound of electricity\ncan be heard when it exhales.",
+            "evolves_to": []
+        },
+        {
+            "id": 136,
+            "name": "Flareon",
+            "type": [
+                "Fire"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 130,
+                "Defense": 60,
+                "Sp. Attack": 95,
+                "Sp. Defense": 110,
+                "Speed": 65
+            },
+            "desc": "If it inhales deeply, that’s a sign it’s about to\nattack. Prepare to be hit by flames of over\n3,000 degrees Fahrenheit!",
+            "evolves_to": []
+        },
+        {
+            "id": 137,
+            "name": "Porygon",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 65,
+                "Attack": 60,
+                "Defense": 70,
+                "Sp. Attack": 85,
+                "Sp. Defense": 75,
+                "Speed": 40
+            },
+            "desc": "This Pokémon was created using the\ncutting-edge science of 20 years ago, so\nmany parts of it have since become obsolete.",
+            "evolves_to": [
+                233
+            ]
+        },
+        {
+            "id": 138,
+            "name": "Omanyte",
+            "type": [
+                "Rock",
+                "Water"
+            ],
+            "attr": {
+                "HP": 35,
+                "Attack": 40,
+                "Defense": 100,
+                "Sp. Attack": 90,
+                "Sp. Defense": 55,
+                "Speed": 35
+            },
+            "desc": "Omanyte lived in the seas of antiquity. Its\nfossils have been found bearing bite marks from\nArcheops, so apparently Archeops preyed on it.",
+            "evolves_to": [
+                139
+            ]
+        },
+        {
+            "id": 139,
+            "name": "Omastar",
+            "type": [
+                "Rock",
+                "Water"
+            ],
+            "attr": {
+                "HP": 70,
+                "Attack": 60,
+                "Defense": 125,
+                "Sp. Attack": 115,
+                "Sp. Defense": 70,
+                "Speed": 55
+            },
+            "desc": "Its heavy shell is thought to be the reason this\nancient Pokémon died out. It’s apparently a\ndistant ancestor of Octillery.",
+            "evolves_to": []
+        },
+        {
+            "id": 140,
+            "name": "Kabuto",
+            "type": [
+                "Rock",
+                "Water"
+            ],
+            "attr": {
+                "HP": 30,
+                "Attack": 80,
+                "Defense": 90,
+                "Sp. Attack": 55,
+                "Sp. Defense": 45,
+                "Speed": 55
+            },
+            "desc": "This Pokémon thrived 300 million years ago. It’s\nsaid that living specimens can still be seen\nin a certain region—a rare sight.",
+            "evolves_to": [
+                141
+            ]
+        },
+        {
+            "id": 141,
+            "name": "Kabutops",
+            "type": [
+                "Rock",
+                "Water"
+            ],
+            "attr": {
+                "HP": 60,
+                "Attack": 115,
+                "Defense": 105,
+                "Sp. Attack": 65,
+                "Sp. Defense": 70,
+                "Speed": 80
+            },
+            "desc": "Its body had begun to change so it could\nfunction on land. But it didn’t adapt in time and\nwent extinct.",
+            "evolves_to": []
+        },
+        {
+            "id": 142,
+            "name": "Aerodactyl",
+            "type": [
+                "Rock",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 80,
+                "Attack": 105,
+                "Defense": 65,
+                "Sp. Attack": 60,
+                "Sp. Defense": 75,
+                "Speed": 130
+            },
+            "desc": "Restored from DNA found in amber, this\nPokémon exhibited ferocity that was greater\nthan expected. Some casualties resulted.",
+            "evolves_to": []
+        },
+        {
+            "id": 143,
+            "name": "Snorlax",
+            "type": [
+                "Normal"
+            ],
+            "attr": {
+                "HP": 160,
+                "Attack": 110,
+                "Defense": 65,
+                "Sp. Attack": 65,
+                "Sp. Defense": 110,
+                "Speed": 30
+            },
+            "desc": "It doesn’t do anything other than eat and sleep.\nWhen prompted to make a serious effort,\nthough, it apparently displays awesome power.",
+            "evolves_to": []
+        },
+        {
+            "id": 144,
+            "name": "Articuno",
+            "type": [
+                "Ice",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 85,
+                "Defense": 100,
+                "Sp. Attack": 95,
+                "Sp. Defense": 125,
+                "Speed": 85
+            },
+            "desc": "Articuno is a legendary bird Pokémon that can control ice.\nThe flapping of its wings chills the air. As a result, it is said\nthat when this Pokémon flies, snow will fall.",
+            "evolves_to": []
+        },
+        {
+            "id": 145,
+            "name": "Zapdos",
+            "type": [
+                "Electric",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 90,
+                "Defense": 85,
+                "Sp. Attack": 125,
+                "Sp. Defense": 90,
+                "Speed": 100
+            },
+            "desc": "Zapdos is a legendary bird Pokémon that has the ability\nto control electricity. It usually lives in thunderclouds.\nThe Pokémon gains power if it is stricken by lightning bolts.",
+            "evolves_to": []
+        },
+        {
+            "id": 146,
+            "name": "Moltres",
+            "type": [
+                "Fire",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 90,
+                "Attack": 100,
+                "Defense": 90,
+                "Sp. Attack": 125,
+                "Sp. Defense": 85,
+                "Speed": 90
+            },
+            "desc": "Moltres is a legendary bird Pokémon that has the ability\nto control fire. If this Pokémon is injured, it is said to dip its\nbody in the molten magma of a volcano to burn and heal itself.",
+            "evolves_to": []
+        },
+        {
+            "id": 147,
+            "name": "Dratini",
+            "type": [
+                "Dragon"
+            ],
+            "attr": {
+                "HP": 41,
+                "Attack": 64,
+                "Defense": 45,
+                "Sp. Attack": 50,
+                "Sp. Defense": 50,
+                "Speed": 50
+            },
+            "desc": "It’s still weak, so it lurks on the floor of bodies\nof water, eating whatever food sinks down and\nliving a quiet life.",
+            "evolves_to": [
+                148
+            ]
+        },
+        {
+            "id": 148,
+            "name": "Dragonair",
+            "type": [
+                "Dragon"
+            ],
+            "attr": {
+                "HP": 61,
+                "Attack": 84,
+                "Defense": 65,
+                "Sp. Attack": 70,
+                "Sp. Defense": 70,
+                "Speed": 70
+            },
+            "desc": "Lakes where Dragonair live are filled with\nofferings from people, because they believe this\nPokémon is able to control the weather.",
+            "evolves_to": [
+                149
+            ]
+        },
+        {
+            "id": 149,
+            "name": "Dragonite",
+            "type": [
+                "Dragon",
+                "Flying"
+            ],
+            "attr": {
+                "HP": 91,
+                "Attack": 134,
+                "Defense": 95,
+                "Sp. Attack": 100,
+                "Sp. Defense": 100,
+                "Speed": 80
+            },
+            "desc": "It flies over raging seas as if they were nothing.\nObserving this, a ship’s captain dubbed this\nPokémon “the sea incarnate.”",
+            "evolves_to": []
+        },
+        {
+            "id": 150,
+            "name": "Mewtwo",
+            "type": [
+                "Psychic"
+            ],
+            "attr": {
+                "HP": 106,
+                "Attack": 110,
+                "Defense": 90,
+                "Sp. Attack": 154,
+                "Sp. Defense": 90,
+                "Speed": 130
+            },
+            "desc": "Mewtwo is a Pokémon that was created by genetic\nmanipulation. However, even though the scientific power\nof humans created this Pokémon’s body, they failed to\nendow Mewtwo with a compassionate heart.",
+            "evolves_to": []
+        }
+    ],
+    "moves": [
+        {
+            "id": 1,
+            "name": "Pound",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "id": 2,
+            "name": "Karate Chop",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Fighting"
+        },
+        {
+            "id": 3,
+            "name": "Double Slap",
+            "accuracy": 85,
+            "power": 15,
+            "type": "Normal"
+        },
+        {
+            "id": 4,
+            "name": "Comet Punch",
+            "accuracy": 85,
+            "power": 18,
+            "type": "Normal"
+        },
+        {
+            "id": 5,
+            "name": "Mega Punch",
+            "accuracy": 85,
+            "power": 80,
+            "type": "Normal"
+        },
+        {
+            "id": 6,
+            "name": "Pay Day",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "id": 7,
+            "name": "Fire Punch",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Fire"
+        },
+        {
+            "id": 8,
+            "name": "Ice Punch",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Ice"
+        },
+        {
+            "id": 9,
+            "name": "Thunder Punch",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Electric"
+        },
+        {
+            "id": 10,
+            "name": "Scratch",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "id": 11,
+            "name": "Vice Grip",
+            "accuracy": 100,
+            "power": 55,
+            "type": "Normal"
+        },
+        {
+            "id": 12,
+            "name": "Guillotine",
+            "accuracy": 30,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 13,
+            "name": "Razor Wind",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Normal"
+        },
+        {
+            "id": 14,
+            "name": "Swords Dance",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 15,
+            "name": "Cut",
+            "accuracy": 95,
+            "power": 50,
+            "type": "Normal"
+        },
+        {
+            "id": 16,
+            "name": "Gust",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Fighting"
+        },
+        {
+            "id": 17,
+            "name": "Wing Attack",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 18,
+            "name": "Whirlwind",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 19,
+            "name": "Fly",
+            "accuracy": 95,
+            "power": 90,
+            "type": "Fighting"
+        },
+        {
+            "id": 20,
+            "name": "Bind",
+            "accuracy": 85,
+            "power": 15,
+            "type": "Normal"
+        },
+        {
+            "id": 21,
+            "name": "Slam",
+            "accuracy": 75,
+            "power": 80,
+            "type": "Normal"
+        },
+        {
+            "id": 22,
+            "name": "Vine Whip",
+            "accuracy": 100,
+            "power": 45,
+            "type": "Grass"
+        },
+        {
+            "id": 23,
+            "name": "Stomp",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Normal"
+        },
+        {
+            "id": 24,
+            "name": "Double Kick",
+            "accuracy": 100,
+            "power": 30,
+            "type": "Fighting"
+        },
+        {
+            "id": 25,
+            "name": "Mega Kick",
+            "accuracy": 75,
+            "power": 120,
+            "type": "Normal"
+        },
+        {
+            "id": 26,
+            "name": "Jump Kick",
+            "accuracy": 95,
+            "power": 130,
+            "type": "Fighting"
+        },
+        {
+            "id": 27,
+            "name": "Rolling Kick",
+            "accuracy": 85,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 28,
+            "name": "Sand Attack",
+            "accuracy": 100,
+            "power": null,
+            "type": "Ground"
+        },
+        {
+            "id": 29,
+            "name": "Headbutt",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 30,
+            "name": "Horn Attack",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Normal"
+        },
+        {
+            "id": 31,
+            "name": "Fury Attack",
+            "accuracy": 85,
+            "power": 15,
+            "type": "Normal"
+        },
+        {
+            "id": 32,
+            "name": "Horn Drill",
+            "accuracy": 30,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 33,
+            "name": "Tackle",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Normal"
+        },
+        {
+            "id": 34,
+            "name": "Body Slam",
+            "accuracy": 100,
+            "power": 85,
+            "type": "Normal"
+        },
+        {
+            "id": 35,
+            "name": "Wrap",
+            "accuracy": 90,
+            "power": 15,
+            "type": "Normal"
+        },
+        {
+            "id": 36,
+            "name": "Take Down",
+            "accuracy": 85,
+            "power": 90,
+            "type": "Normal"
+        },
+        {
+            "id": 37,
+            "name": "Thrash",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Normal"
+        },
+        {
+            "id": 38,
+            "name": "Double-Edge",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Normal"
+        },
+        {
+            "id": 39,
+            "name": "Tail Whip",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 40,
+            "name": "Poison Sting",
+            "accuracy": 100,
+            "power": 15,
+            "type": "Poison"
+        },
+        {
+            "id": 41,
+            "name": "Twineedle",
+            "accuracy": 100,
+            "power": 25,
+            "type": "Bug"
+        },
+        {
+            "id": 42,
+            "name": "Pin Missile",
+            "accuracy": 95,
+            "power": 25,
+            "type": "Bug"
+        },
+        {
+            "id": 43,
+            "name": "Leer",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 44,
+            "name": "Bite",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Dark"
+        },
+        {
+            "id": 45,
+            "name": "Growl",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 46,
+            "name": "Roar",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 47,
+            "name": "Sing",
+            "accuracy": 55,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 48,
+            "name": "Supersonic",
+            "accuracy": 55,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 49,
+            "name": "Sonic Boom",
+            "accuracy": 90,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 50,
+            "name": "Disable",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 51,
+            "name": "Acid",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Poison"
+        },
+        {
+            "id": 52,
+            "name": "Ember",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Fire"
+        },
+        {
+            "id": 53,
+            "name": "Flamethrower",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Fire"
+        },
+        {
+            "id": 54,
+            "name": "Mist",
+            "accuracy": null,
+            "power": null,
+            "type": "Ice"
+        },
+        {
+            "id": 55,
+            "name": "Water Gun",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Water"
+        },
+        {
+            "id": 56,
+            "name": "Hydro Pump",
+            "accuracy": 80,
+            "power": 110,
+            "type": "Water"
+        },
+        {
+            "id": 57,
+            "name": "Surf",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Water"
+        },
+        {
+            "id": 58,
+            "name": "Ice Beam",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Ice"
+        },
+        {
+            "id": 59,
+            "name": "Blizzard",
+            "accuracy": 70,
+            "power": 110,
+            "type": "Ice"
+        },
+        {
+            "id": 60,
+            "name": "Psybeam",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Psychic"
+        },
+        {
+            "id": 61,
+            "name": "Bubble Beam",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Water"
+        },
+        {
+            "id": 62,
+            "name": "Aurora Beam",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Ice"
+        },
+        {
+            "id": 63,
+            "name": "Hyper Beam",
+            "accuracy": 90,
+            "power": 150,
+            "type": "Normal"
+        },
+        {
+            "id": 64,
+            "name": "Peck",
+            "accuracy": 100,
+            "power": 35,
+            "type": "Fighting"
+        },
+        {
+            "id": 65,
+            "name": "Drill Peck",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Fighting"
+        },
+        {
+            "id": 66,
+            "name": "Submission",
+            "accuracy": 80,
+            "power": 80,
+            "type": "Fighting"
+        },
+        {
+            "id": 67,
+            "name": "Low Kick",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 68,
+            "name": "Counter",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 69,
+            "name": "Seismic Toss",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 70,
+            "name": "Strength",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Normal"
+        },
+        {
+            "id": 71,
+            "name": "Absorb",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Grass"
+        },
+        {
+            "id": 72,
+            "name": "Mega Drain",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Grass"
+        },
+        {
+            "id": 73,
+            "name": "Leech Seed",
+            "accuracy": 90,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 74,
+            "name": "Growth",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 75,
+            "name": "Razor Leaf",
+            "accuracy": 95,
+            "power": 55,
+            "type": "Grass"
+        },
+        {
+            "id": 76,
+            "name": "Solar Beam",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Grass"
+        },
+        {
+            "id": 77,
+            "name": "Poison Powder",
+            "accuracy": 75,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 78,
+            "name": "Stun Spore",
+            "accuracy": 75,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 79,
+            "name": "Sleep Powder",
+            "accuracy": 75,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 80,
+            "name": "Petal Dance",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Grass"
+        },
+        {
+            "id": 81,
+            "name": "String Shot",
+            "accuracy": 95,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 82,
+            "name": "Dragon Rage",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dragon"
+        },
+        {
+            "id": 83,
+            "name": "Fire Spin",
+            "accuracy": 85,
+            "power": 35,
+            "type": "Fire"
+        },
+        {
+            "id": 84,
+            "name": "Thunder Shock",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Electric"
+        },
+        {
+            "id": 85,
+            "name": "Thunderbolt",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Electric"
+        },
+        {
+            "id": 86,
+            "name": "Thunder Wave",
+            "accuracy": 100,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 87,
+            "name": "Thunder",
+            "accuracy": 70,
+            "power": 110,
+            "type": "Electric"
+        },
+        {
+            "id": 88,
+            "name": "Rock Throw",
+            "accuracy": 90,
+            "power": 50,
+            "type": "Rock"
+        },
+        {
+            "id": 89,
+            "name": "Earthquake",
+            "accuracy": 100,
+            "power": 100,
+            "type": "Ground"
+        },
+        {
+            "id": 90,
+            "name": "Fissure",
+            "accuracy": 30,
+            "power": null,
+            "type": "Ground"
+        },
+        {
+            "id": 91,
+            "name": "Dig",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Ground"
+        },
+        {
+            "id": 92,
+            "name": "Toxic",
+            "accuracy": 90,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 93,
+            "name": "Confusion",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Psychic"
+        },
+        {
+            "id": 94,
+            "name": "Psychic",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Psychic"
+        },
+        {
+            "id": 95,
+            "name": "Hypnosis",
+            "accuracy": 60,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 96,
+            "name": "Meditate",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 97,
+            "name": "Agility",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 98,
+            "name": "Quick Attack",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "id": 99,
+            "name": "Rage",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Normal"
+        },
+        {
+            "id": 100,
+            "name": "Teleport",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 101,
+            "name": "Night Shade",
+            "accuracy": 100,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 102,
+            "name": "Mimic",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 103,
+            "name": "Screech",
+            "accuracy": 85,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 104,
+            "name": "Double Team",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 105,
+            "name": "Recover",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 106,
+            "name": "Harden",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 107,
+            "name": "Minimize",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 108,
+            "name": "Smokescreen",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 109,
+            "name": "Confuse Ray",
+            "accuracy": 100,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 110,
+            "name": "Withdraw",
+            "accuracy": null,
+            "power": null,
+            "type": "Water"
+        },
+        {
+            "id": 111,
+            "name": "Defense Curl",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 112,
+            "name": "Barrier",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 113,
+            "name": "Light Screen",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 114,
+            "name": "Haze",
+            "accuracy": null,
+            "power": null,
+            "type": "Ice"
+        },
+        {
+            "id": 115,
+            "name": "Reflect",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 116,
+            "name": "Focus Energy",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 117,
+            "name": "Bide",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 118,
+            "name": "Metronome",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 119,
+            "name": "Mirror Move",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 120,
+            "name": "Self-Destruct",
+            "accuracy": 100,
+            "power": 200,
+            "type": "Normal"
+        },
+        {
+            "id": 121,
+            "name": "Egg Bomb",
+            "accuracy": 75,
+            "power": 100,
+            "type": "Normal"
+        },
+        {
+            "id": 122,
+            "name": "Lick",
+            "accuracy": 100,
+            "power": 30,
+            "type": "Ghost"
+        },
+        {
+            "id": 123,
+            "name": "Smog",
+            "accuracy": 70,
+            "power": 30,
+            "type": "Poison"
+        },
+        {
+            "id": 124,
+            "name": "Sludge",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Poison"
+        },
+        {
+            "id": 125,
+            "name": "Bone Club",
+            "accuracy": 85,
+            "power": 65,
+            "type": "Ground"
+        },
+        {
+            "id": 126,
+            "name": "Fire Blast",
+            "accuracy": 85,
+            "power": 110,
+            "type": "Fire"
+        },
+        {
+            "id": 127,
+            "name": "Waterfall",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Water"
+        },
+        {
+            "id": 128,
+            "name": "Clamp",
+            "accuracy": 85,
+            "power": 35,
+            "type": "Water"
+        },
+        {
+            "id": 129,
+            "name": "Swift",
+            "accuracy": null,
+            "power": 60,
+            "type": "Normal"
+        },
+        {
+            "id": 130,
+            "name": "Skull Bash",
+            "accuracy": 100,
+            "power": 130,
+            "type": "Normal"
+        },
+        {
+            "id": 131,
+            "name": "Spike Cannon",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Normal"
+        },
+        {
+            "id": 132,
+            "name": "Constrict",
+            "accuracy": 100,
+            "power": 10,
+            "type": "Normal"
+        },
+        {
+            "id": 133,
+            "name": "Amnesia",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 134,
+            "name": "Kinesis",
+            "accuracy": 80,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 135,
+            "name": "Soft-Boiled",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 136,
+            "name": "High Jump Kick",
+            "accuracy": 90,
+            "power": 130,
+            "type": "Fighting"
+        },
+        {
+            "id": 137,
+            "name": "Glare",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 138,
+            "name": "Dream Eater",
+            "accuracy": 100,
+            "power": 100,
+            "type": "Psychic"
+        },
+        {
+            "id": 139,
+            "name": "Poison Gas",
+            "accuracy": 90,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 140,
+            "name": "Barrage",
+            "accuracy": 85,
+            "power": 15,
+            "type": "Normal"
+        },
+        {
+            "id": 141,
+            "name": "Leech Life",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Bug"
+        },
+        {
+            "id": 142,
+            "name": "Lovely Kiss",
+            "accuracy": 75,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 143,
+            "name": "Sky Attack",
+            "accuracy": 90,
+            "power": 140,
+            "type": "Fighting"
+        },
+        {
+            "id": 144,
+            "name": "Transform",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 145,
+            "name": "Bubble",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Water"
+        },
+        {
+            "id": 146,
+            "name": "Dizzy Punch",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 147,
+            "name": "Spore",
+            "accuracy": 100,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 148,
+            "name": "Flash",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 149,
+            "name": "Psywave",
+            "accuracy": 100,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 150,
+            "name": "Splash",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 151,
+            "name": "Acid Armor",
+            "accuracy": null,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 152,
+            "name": "Crabhammer",
+            "accuracy": 90,
+            "power": 100,
+            "type": "Water"
+        },
+        {
+            "id": 153,
+            "name": "Explosion",
+            "accuracy": 100,
+            "power": 250,
+            "type": "Normal"
+        },
+        {
+            "id": 154,
+            "name": "Fury Swipes",
+            "accuracy": 80,
+            "power": 18,
+            "type": "Normal"
+        },
+        {
+            "id": 155,
+            "name": "Bonemerang",
+            "accuracy": 90,
+            "power": 50,
+            "type": "Ground"
+        },
+        {
+            "id": 156,
+            "name": "Rest",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 157,
+            "name": "Rock Slide",
+            "accuracy": 90,
+            "power": 75,
+            "type": "Rock"
+        },
+        {
+            "id": 158,
+            "name": "Hyper Fang",
+            "accuracy": 90,
+            "power": 80,
+            "type": "Normal"
+        },
+        {
+            "id": 159,
+            "name": "Sharpen",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 160,
+            "name": "Conversion",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 161,
+            "name": "Tri Attack",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Normal"
+        },
+        {
+            "id": 162,
+            "name": "Super Fang",
+            "accuracy": 90,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 163,
+            "name": "Slash",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 164,
+            "name": "Substitute",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 165,
+            "name": "Struggle",
+            "accuracy": null,
+            "power": 50,
+            "type": "Normal"
+        },
+        {
+            "id": 166,
+            "name": "Sketch",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 167,
+            "name": "Triple Kick",
+            "accuracy": 90,
+            "power": 10,
+            "type": "Fighting"
+        },
+        {
+            "id": 168,
+            "name": "Thief",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Dark"
+        },
+        {
+            "id": 169,
+            "name": "Spider Web",
+            "accuracy": null,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 170,
+            "name": "Mind Reader",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 171,
+            "name": "Nightmare",
+            "accuracy": 100,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 172,
+            "name": "Flame Wheel",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fire"
+        },
+        {
+            "id": 173,
+            "name": "Snore",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Normal"
+        },
+        {
+            "id": 174,
+            "name": "Curse",
+            "accuracy": null,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 175,
+            "name": "Flail",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 176,
+            "name": "Conversion 2",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 177,
+            "name": "Aeroblast",
+            "accuracy": 95,
+            "power": 100,
+            "type": "Fighting"
+        },
+        {
+            "id": 178,
+            "name": "Cotton Spore",
+            "accuracy": 100,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 179,
+            "name": "Reversal",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 180,
+            "name": "Spite",
+            "accuracy": 100,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 181,
+            "name": "Powder Snow",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Ice"
+        },
+        {
+            "id": 182,
+            "name": "Protect",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 183,
+            "name": "Mach Punch",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Fighting"
+        },
+        {
+            "id": 184,
+            "name": "Scary Face",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 185,
+            "name": "Feint Attack",
+            "accuracy": null,
+            "power": 60,
+            "type": "Dark"
+        },
+        {
+            "id": 186,
+            "name": "Sweet Kiss",
+            "accuracy": 75,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 187,
+            "name": "Belly Drum",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 188,
+            "name": "Sludge Bomb",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Poison"
+        },
+        {
+            "id": 189,
+            "name": "Mud-Slap",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Ground"
+        },
+        {
+            "id": 190,
+            "name": "Octazooka",
+            "accuracy": 85,
+            "power": 65,
+            "type": "Water"
+        },
+        {
+            "id": 191,
+            "name": "Spikes",
+            "accuracy": null,
+            "power": null,
+            "type": "Ground"
+        },
+        {
+            "id": 192,
+            "name": "Zap Cannon",
+            "accuracy": 50,
+            "power": 120,
+            "type": "Electric"
+        },
+        {
+            "id": 193,
+            "name": "Foresight",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 194,
+            "name": "Destiny Bond",
+            "accuracy": null,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 195,
+            "name": "Perish Song",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 196,
+            "name": "Icy Wind",
+            "accuracy": 95,
+            "power": 55,
+            "type": "Ice"
+        },
+        {
+            "id": 197,
+            "name": "Detect",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 198,
+            "name": "Bone Rush",
+            "accuracy": 80,
+            "power": 25,
+            "type": "Ground"
+        },
+        {
+            "id": 199,
+            "name": "Lock-On",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 200,
+            "name": "Outrage",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Dragon"
+        },
+        {
+            "id": 201,
+            "name": "Sandstorm",
+            "accuracy": null,
+            "power": null,
+            "type": "Rock"
+        },
+        {
+            "id": 202,
+            "name": "Giga Drain",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Grass"
+        },
+        {
+            "id": 203,
+            "name": "Endure",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 204,
+            "name": "Charm",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 205,
+            "name": "Rollout",
+            "accuracy": 90,
+            "power": 30,
+            "type": "Rock"
+        },
+        {
+            "id": 206,
+            "name": "False Swipe",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "id": 207,
+            "name": "Swagger",
+            "accuracy": 90,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 208,
+            "name": "Milk Drink",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 209,
+            "name": "Spark",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Electric"
+        },
+        {
+            "id": 210,
+            "name": "Fury Cutter",
+            "accuracy": 95,
+            "power": 40,
+            "type": "Bug"
+        },
+        {
+            "id": 211,
+            "name": "Steel Wing",
+            "accuracy": 90,
+            "power": 70,
+            "type": "Steel"
+        },
+        {
+            "id": 212,
+            "name": "Mean Look",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 213,
+            "name": "Attract",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 214,
+            "name": "Sleep Talk",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 215,
+            "name": "Heal Bell",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 216,
+            "name": "Return",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 217,
+            "name": "Present",
+            "accuracy": 90,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 218,
+            "name": "Frustration",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 219,
+            "name": "Safeguard",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 220,
+            "name": "Pain Split",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 221,
+            "name": "Sacred Fire",
+            "accuracy": 95,
+            "power": 100,
+            "type": "Fire"
+        },
+        {
+            "id": 222,
+            "name": "Magnitude",
+            "accuracy": 100,
+            "power": null,
+            "type": "Ground"
+        },
+        {
+            "id": 223,
+            "name": "Dynamic Punch",
+            "accuracy": 50,
+            "power": 100,
+            "type": "Fighting"
+        },
+        {
+            "id": 224,
+            "name": "Megahorn",
+            "accuracy": 85,
+            "power": 120,
+            "type": "Bug"
+        },
+        {
+            "id": 225,
+            "name": "Dragon Breath",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Dragon"
+        },
+        {
+            "id": 226,
+            "name": "Baton Pass",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 227,
+            "name": "Encore",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 228,
+            "name": "Pursuit",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Dark"
+        },
+        {
+            "id": 229,
+            "name": "Rapid Spin",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Normal"
+        },
+        {
+            "id": 230,
+            "name": "Sweet Scent",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 231,
+            "name": "Iron Tail",
+            "accuracy": 75,
+            "power": 100,
+            "type": "Steel"
+        },
+        {
+            "id": 232,
+            "name": "Metal Claw",
+            "accuracy": 95,
+            "power": 50,
+            "type": "Steel"
+        },
+        {
+            "id": 233,
+            "name": "Vital Throw",
+            "accuracy": null,
+            "power": 70,
+            "type": "Fighting"
+        },
+        {
+            "id": 234,
+            "name": "Morning Sun",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 235,
+            "name": "Synthesis",
+            "accuracy": null,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 236,
+            "name": "Moonlight",
+            "accuracy": null,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 237,
+            "name": "Hidden Power",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Normal"
+        },
+        {
+            "id": 238,
+            "name": "Cross Chop",
+            "accuracy": 80,
+            "power": 100,
+            "type": "Fighting"
+        },
+        {
+            "id": 239,
+            "name": "Twister",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Dragon"
+        },
+        {
+            "id": 240,
+            "name": "Rain Dance",
+            "accuracy": null,
+            "power": null,
+            "type": "Water"
+        },
+        {
+            "id": 241,
+            "name": "Sunny Day",
+            "accuracy": null,
+            "power": null,
+            "type": "Fire"
+        },
+        {
+            "id": 242,
+            "name": "Crunch",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Dark"
+        },
+        {
+            "id": 243,
+            "name": "Mirror Coat",
+            "accuracy": 100,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 244,
+            "name": "Psych Up",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 245,
+            "name": "Extreme Speed",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Normal"
+        },
+        {
+            "id": 246,
+            "name": "Ancient Power",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Rock"
+        },
+        {
+            "id": 247,
+            "name": "Shadow Ball",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Ghost"
+        },
+        {
+            "id": 248,
+            "name": "Future Sight",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Psychic"
+        },
+        {
+            "id": 249,
+            "name": "Rock Smash",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Fighting"
+        },
+        {
+            "id": 250,
+            "name": "Whirlpool",
+            "accuracy": 85,
+            "power": 35,
+            "type": "Water"
+        },
+        {
+            "id": 251,
+            "name": "Beat Up",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 252,
+            "name": "Fake Out",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "id": 253,
+            "name": "Uproar",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Normal"
+        },
+        {
+            "id": 254,
+            "name": "Stockpile",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 255,
+            "name": "Spit Up",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 256,
+            "name": "Swallow",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 257,
+            "name": "Heat Wave",
+            "accuracy": 90,
+            "power": 95,
+            "type": "Fire"
+        },
+        {
+            "id": 258,
+            "name": "Hail",
+            "accuracy": null,
+            "power": null,
+            "type": "Ice"
+        },
+        {
+            "id": 259,
+            "name": "Torment",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 260,
+            "name": "Flatter",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 261,
+            "name": "Will-O-Wisp",
+            "accuracy": 85,
+            "power": null,
+            "type": "Fire"
+        },
+        {
+            "id": 262,
+            "name": "Memento",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 263,
+            "name": "Facade",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 264,
+            "name": "Focus Punch",
+            "accuracy": 100,
+            "power": 150,
+            "type": "Fighting"
+        },
+        {
+            "id": 265,
+            "name": "Smelling Salts",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 266,
+            "name": "Follow Me",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 267,
+            "name": "Nature Power",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 268,
+            "name": "Charge",
+            "accuracy": null,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 269,
+            "name": "Taunt",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 270,
+            "name": "Helping Hand",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 271,
+            "name": "Trick",
+            "accuracy": 100,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 272,
+            "name": "Role Play",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 273,
+            "name": "Wish",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 274,
+            "name": "Assist",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 275,
+            "name": "Ingrain",
+            "accuracy": null,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 276,
+            "name": "Superpower",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Fighting"
+        },
+        {
+            "id": 277,
+            "name": "Magic Coat",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 278,
+            "name": "Recycle",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 279,
+            "name": "Revenge",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 280,
+            "name": "Brick Break",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Fighting"
+        },
+        {
+            "id": 281,
+            "name": "Yawn",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 282,
+            "name": "Knock Off",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Dark"
+        },
+        {
+            "id": 283,
+            "name": "Endeavor",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 284,
+            "name": "Eruption",
+            "accuracy": 100,
+            "power": 150,
+            "type": "Fire"
+        },
+        {
+            "id": 285,
+            "name": "Skill Swap",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 286,
+            "name": "Imprison",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 287,
+            "name": "Refresh",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 288,
+            "name": "Grudge",
+            "accuracy": null,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 289,
+            "name": "Snatch",
+            "accuracy": null,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 290,
+            "name": "Secret Power",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 291,
+            "name": "Dive",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Water"
+        },
+        {
+            "id": 292,
+            "name": "Arm Thrust",
+            "accuracy": 100,
+            "power": 15,
+            "type": "Fighting"
+        },
+        {
+            "id": 293,
+            "name": "Camouflage",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 294,
+            "name": "Tail Glow",
+            "accuracy": null,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 295,
+            "name": "Luster Purge",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Psychic"
+        },
+        {
+            "id": 296,
+            "name": "Mist Ball",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Psychic"
+        },
+        {
+            "id": 297,
+            "name": "Feather Dance",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 298,
+            "name": "Teeter Dance",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 299,
+            "name": "Blaze Kick",
+            "accuracy": 90,
+            "power": 85,
+            "type": "Fire"
+        },
+        {
+            "id": 300,
+            "name": "Mud Sport",
+            "accuracy": null,
+            "power": null,
+            "type": "Ground"
+        },
+        {
+            "id": 301,
+            "name": "Ice Ball",
+            "accuracy": 90,
+            "power": 30,
+            "type": "Ice"
+        },
+        {
+            "id": 302,
+            "name": "Needle Arm",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Grass"
+        },
+        {
+            "id": 303,
+            "name": "Slack Off",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 304,
+            "name": "Hyper Voice",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Normal"
+        },
+        {
+            "id": 305,
+            "name": "Poison Fang",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Poison"
+        },
+        {
+            "id": 306,
+            "name": "Crush Claw",
+            "accuracy": 95,
+            "power": 75,
+            "type": "Normal"
+        },
+        {
+            "id": 307,
+            "name": "Blast Burn",
+            "accuracy": 90,
+            "power": 150,
+            "type": "Fire"
+        },
+        {
+            "id": 308,
+            "name": "Hydro Cannon",
+            "accuracy": 90,
+            "power": 150,
+            "type": "Water"
+        },
+        {
+            "id": 309,
+            "name": "Meteor Mash",
+            "accuracy": 90,
+            "power": 90,
+            "type": "Steel"
+        },
+        {
+            "id": 310,
+            "name": "Astonish",
+            "accuracy": 100,
+            "power": 30,
+            "type": "Ghost"
+        },
+        {
+            "id": 311,
+            "name": "Weather Ball",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Normal"
+        },
+        {
+            "id": 312,
+            "name": "Aromatherapy",
+            "accuracy": null,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 313,
+            "name": "Fake Tears",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 314,
+            "name": "Air Cutter",
+            "accuracy": 95,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 315,
+            "name": "Overheat",
+            "accuracy": 90,
+            "power": 130,
+            "type": "Fire"
+        },
+        {
+            "id": 316,
+            "name": "Odor Sleuth",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 317,
+            "name": "Rock Tomb",
+            "accuracy": 95,
+            "power": 60,
+            "type": "Rock"
+        },
+        {
+            "id": 318,
+            "name": "Silver Wind",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Bug"
+        },
+        {
+            "id": 319,
+            "name": "Metal Sound",
+            "accuracy": 85,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 320,
+            "name": "Grass Whistle",
+            "accuracy": 55,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 321,
+            "name": "Tickle",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 322,
+            "name": "Cosmic Power",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 323,
+            "name": "Water Spout",
+            "accuracy": 100,
+            "power": 150,
+            "type": "Water"
+        },
+        {
+            "id": 324,
+            "name": "Signal Beam",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Bug"
+        },
+        {
+            "id": 325,
+            "name": "Shadow Punch",
+            "accuracy": null,
+            "power": 60,
+            "type": "Ghost"
+        },
+        {
+            "id": 326,
+            "name": "Extrasensory",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Psychic"
+        },
+        {
+            "id": 327,
+            "name": "Sky Uppercut",
+            "accuracy": 90,
+            "power": 85,
+            "type": "Fighting"
+        },
+        {
+            "id": 328,
+            "name": "Sand Tomb",
+            "accuracy": 85,
+            "power": 35,
+            "type": "Ground"
+        },
+        {
+            "id": 329,
+            "name": "Sheer Cold",
+            "accuracy": 30,
+            "power": null,
+            "type": "Ice"
+        },
+        {
+            "id": 330,
+            "name": "Muddy Water",
+            "accuracy": 85,
+            "power": 90,
+            "type": "Water"
+        },
+        {
+            "id": 331,
+            "name": "Bullet Seed",
+            "accuracy": 100,
+            "power": 25,
+            "type": "Grass"
+        },
+        {
+            "id": 332,
+            "name": "Aerial Ace",
+            "accuracy": null,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 333,
+            "name": "Icicle Spear",
+            "accuracy": 100,
+            "power": 25,
+            "type": "Ice"
+        },
+        {
+            "id": 334,
+            "name": "Iron Defense",
+            "accuracy": null,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 335,
+            "name": "Block",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 336,
+            "name": "Howl",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 337,
+            "name": "Dragon Claw",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Dragon"
+        },
+        {
+            "id": 338,
+            "name": "Frenzy Plant",
+            "accuracy": 90,
+            "power": 150,
+            "type": "Grass"
+        },
+        {
+            "id": 339,
+            "name": "Bulk Up",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 340,
+            "name": "Bounce",
+            "accuracy": 85,
+            "power": 85,
+            "type": "Fighting"
+        },
+        {
+            "id": 341,
+            "name": "Mud Shot",
+            "accuracy": 95,
+            "power": 55,
+            "type": "Ground"
+        },
+        {
+            "id": 342,
+            "name": "Poison Tail",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Poison"
+        },
+        {
+            "id": 343,
+            "name": "Covet",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Normal"
+        },
+        {
+            "id": 344,
+            "name": "Volt Tackle",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Electric"
+        },
+        {
+            "id": 345,
+            "name": "Magical Leaf",
+            "accuracy": null,
+            "power": 60,
+            "type": "Grass"
+        },
+        {
+            "id": 346,
+            "name": "Water Sport",
+            "accuracy": null,
+            "power": null,
+            "type": "Water"
+        },
+        {
+            "id": 347,
+            "name": "Calm Mind",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 348,
+            "name": "Leaf Blade",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Grass"
+        },
+        {
+            "id": 349,
+            "name": "Dragon Dance",
+            "accuracy": null,
+            "power": null,
+            "type": "Dragon"
+        },
+        {
+            "id": 350,
+            "name": "Rock Blast",
+            "accuracy": 90,
+            "power": 25,
+            "type": "Rock"
+        },
+        {
+            "id": 351,
+            "name": "Shock Wave",
+            "accuracy": null,
+            "power": 60,
+            "type": "Electric"
+        },
+        {
+            "id": 352,
+            "name": "Water Pulse",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Water"
+        },
+        {
+            "id": 353,
+            "name": "Doom Desire",
+            "accuracy": 100,
+            "power": 140,
+            "type": "Steel"
+        },
+        {
+            "id": 354,
+            "name": "Psycho Boost",
+            "accuracy": 90,
+            "power": 140,
+            "type": "Psychic"
+        },
+        {
+            "id": 355,
+            "name": "Roost",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 356,
+            "name": "Gravity",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 357,
+            "name": "Miracle Eye",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 358,
+            "name": "Wake-Up Slap",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Fighting"
+        },
+        {
+            "id": 359,
+            "name": "Hammer Arm",
+            "accuracy": 90,
+            "power": 100,
+            "type": "Fighting"
+        },
+        {
+            "id": 360,
+            "name": "Gyro Ball",
+            "accuracy": 100,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 361,
+            "name": "Healing Wish",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 362,
+            "name": "Brine",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Water"
+        },
+        {
+            "id": 363,
+            "name": "Natural Gift",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 364,
+            "name": "Feint",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Normal"
+        },
+        {
+            "id": 365,
+            "name": "Pluck",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 366,
+            "name": "Tailwind",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 367,
+            "name": "Acupressure",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 368,
+            "name": "Metal Burst",
+            "accuracy": 100,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 369,
+            "name": "U-turn",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Bug"
+        },
+        {
+            "id": 370,
+            "name": "Close Combat",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Fighting"
+        },
+        {
+            "id": 371,
+            "name": "Payback",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Dark"
+        },
+        {
+            "id": 372,
+            "name": "Assurance",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Dark"
+        },
+        {
+            "id": 373,
+            "name": "Embargo",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 374,
+            "name": "Fling",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 375,
+            "name": "Psycho Shift",
+            "accuracy": 100,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 376,
+            "name": "Trump Card",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 377,
+            "name": "Heal Block",
+            "accuracy": 100,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 378,
+            "name": "Wring Out",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 379,
+            "name": "Power Trick",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 380,
+            "name": "Gastro Acid",
+            "accuracy": 100,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 381,
+            "name": "Lucky Chant",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 382,
+            "name": "Me First",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 383,
+            "name": "Copycat",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 384,
+            "name": "Power Swap",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 385,
+            "name": "Guard Swap",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 386,
+            "name": "Punishment",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 387,
+            "name": "Last Resort",
+            "accuracy": 100,
+            "power": 140,
+            "type": "Normal"
+        },
+        {
+            "id": 388,
+            "name": "Worry Seed",
+            "accuracy": 100,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 389,
+            "name": "Sucker Punch",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Dark"
+        },
+        {
+            "id": 390,
+            "name": "Toxic Spikes",
+            "accuracy": null,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 391,
+            "name": "Heart Swap",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 392,
+            "name": "Aqua Ring",
+            "accuracy": null,
+            "power": null,
+            "type": "Water"
+        },
+        {
+            "id": 393,
+            "name": "Magnet Rise",
+            "accuracy": null,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 394,
+            "name": "Flare Blitz",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Fire"
+        },
+        {
+            "id": 395,
+            "name": "Force Palm",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 396,
+            "name": "Aura Sphere",
+            "accuracy": null,
+            "power": 80,
+            "type": "Fighting"
+        },
+        {
+            "id": 397,
+            "name": "Rock Polish",
+            "accuracy": null,
+            "power": null,
+            "type": "Rock"
+        },
+        {
+            "id": 398,
+            "name": "Poison Jab",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Poison"
+        },
+        {
+            "id": 399,
+            "name": "Dark Pulse",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Dark"
+        },
+        {
+            "id": 400,
+            "name": "Night Slash",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Dark"
+        },
+        {
+            "id": 401,
+            "name": "Aqua Tail",
+            "accuracy": 90,
+            "power": 90,
+            "type": "Water"
+        },
+        {
+            "id": 402,
+            "name": "Seed Bomb",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Grass"
+        },
+        {
+            "id": 403,
+            "name": "Air Slash",
+            "accuracy": 95,
+            "power": 75,
+            "type": "Fighting"
+        },
+        {
+            "id": 404,
+            "name": "X-Scissor",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Bug"
+        },
+        {
+            "id": 405,
+            "name": "Bug Buzz",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Bug"
+        },
+        {
+            "id": 406,
+            "name": "Dragon Pulse",
+            "accuracy": 100,
+            "power": 85,
+            "type": "Dragon"
+        },
+        {
+            "id": 407,
+            "name": "Dragon Rush",
+            "accuracy": 75,
+            "power": 100,
+            "type": "Dragon"
+        },
+        {
+            "id": 408,
+            "name": "Power Gem",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Rock"
+        },
+        {
+            "id": 409,
+            "name": "Drain Punch",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Fighting"
+        },
+        {
+            "id": 410,
+            "name": "Vacuum Wave",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Fighting"
+        },
+        {
+            "id": 411,
+            "name": "Focus Blast",
+            "accuracy": 70,
+            "power": 120,
+            "type": "Fighting"
+        },
+        {
+            "id": 412,
+            "name": "Energy Ball",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Grass"
+        },
+        {
+            "id": 413,
+            "name": "Brave Bird",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Fighting"
+        },
+        {
+            "id": 414,
+            "name": "Earth Power",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Ground"
+        },
+        {
+            "id": 415,
+            "name": "Switcheroo",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 416,
+            "name": "Giga Impact",
+            "accuracy": 90,
+            "power": 150,
+            "type": "Normal"
+        },
+        {
+            "id": 417,
+            "name": "Nasty Plot",
+            "accuracy": null,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 418,
+            "name": "Bullet Punch",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Steel"
+        },
+        {
+            "id": 419,
+            "name": "Avalanche",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Ice"
+        },
+        {
+            "id": 420,
+            "name": "Ice Shard",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Ice"
+        },
+        {
+            "id": 421,
+            "name": "Shadow Claw",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Ghost"
+        },
+        {
+            "id": 422,
+            "name": "Thunder Fang",
+            "accuracy": 95,
+            "power": 65,
+            "type": "Electric"
+        },
+        {
+            "id": 423,
+            "name": "Ice Fang",
+            "accuracy": 95,
+            "power": 65,
+            "type": "Ice"
+        },
+        {
+            "id": 424,
+            "name": "Fire Fang",
+            "accuracy": 95,
+            "power": 65,
+            "type": "Fire"
+        },
+        {
+            "id": 425,
+            "name": "Shadow Sneak",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Ghost"
+        },
+        {
+            "id": 426,
+            "name": "Mud Bomb",
+            "accuracy": 85,
+            "power": 65,
+            "type": "Ground"
+        },
+        {
+            "id": 427,
+            "name": "Psycho Cut",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Psychic"
+        },
+        {
+            "id": 428,
+            "name": "Zen Headbutt",
+            "accuracy": 90,
+            "power": 80,
+            "type": "Psychic"
+        },
+        {
+            "id": 429,
+            "name": "Mirror Shot",
+            "accuracy": 85,
+            "power": 65,
+            "type": "Steel"
+        },
+        {
+            "id": 430,
+            "name": "Flash Cannon",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Steel"
+        },
+        {
+            "id": 431,
+            "name": "Rock Climb",
+            "accuracy": 85,
+            "power": 90,
+            "type": "Normal"
+        },
+        {
+            "id": 432,
+            "name": "Defog",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 433,
+            "name": "Trick Room",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 434,
+            "name": "Draco Meteor",
+            "accuracy": 90,
+            "power": 130,
+            "type": "Dragon"
+        },
+        {
+            "id": 435,
+            "name": "Discharge",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Electric"
+        },
+        {
+            "id": 436,
+            "name": "Lava Plume",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Fire"
+        },
+        {
+            "id": 437,
+            "name": "Leaf Storm",
+            "accuracy": 90,
+            "power": 130,
+            "type": "Grass"
+        },
+        {
+            "id": 438,
+            "name": "Power Whip",
+            "accuracy": 85,
+            "power": 120,
+            "type": "Grass"
+        },
+        {
+            "id": 439,
+            "name": "Rock Wrecker",
+            "accuracy": 90,
+            "power": 150,
+            "type": "Rock"
+        },
+        {
+            "id": 440,
+            "name": "Cross Poison",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Poison"
+        },
+        {
+            "id": 441,
+            "name": "Gunk Shot",
+            "accuracy": 80,
+            "power": 120,
+            "type": "Poison"
+        },
+        {
+            "id": 442,
+            "name": "Iron Head",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Steel"
+        },
+        {
+            "id": 443,
+            "name": "Magnet Bomb",
+            "accuracy": null,
+            "power": 60,
+            "type": "Steel"
+        },
+        {
+            "id": 444,
+            "name": "Stone Edge",
+            "accuracy": 80,
+            "power": 100,
+            "type": "Rock"
+        },
+        {
+            "id": 445,
+            "name": "Captivate",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 446,
+            "name": "Stealth Rock",
+            "accuracy": null,
+            "power": null,
+            "type": "Rock"
+        },
+        {
+            "id": 447,
+            "name": "Grass Knot",
+            "accuracy": 100,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 448,
+            "name": "Chatter",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 449,
+            "name": "Judgment",
+            "accuracy": 100,
+            "power": 100,
+            "type": "Normal"
+        },
+        {
+            "id": 450,
+            "name": "Bug Bite",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Bug"
+        },
+        {
+            "id": 451,
+            "name": "Charge Beam",
+            "accuracy": 90,
+            "power": 50,
+            "type": "Electric"
+        },
+        {
+            "id": 452,
+            "name": "Wood Hammer",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Grass"
+        },
+        {
+            "id": 453,
+            "name": "Aqua Jet",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Water"
+        },
+        {
+            "id": 454,
+            "name": "Attack Order",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Bug"
+        },
+        {
+            "id": 455,
+            "name": "Defend Order",
+            "accuracy": null,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 456,
+            "name": "Heal Order",
+            "accuracy": null,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 457,
+            "name": "Head Smash",
+            "accuracy": 80,
+            "power": 150,
+            "type": "Rock"
+        },
+        {
+            "id": 458,
+            "name": "Double Hit",
+            "accuracy": 90,
+            "power": 35,
+            "type": "Normal"
+        },
+        {
+            "id": 459,
+            "name": "Roar of Time",
+            "accuracy": 90,
+            "power": 150,
+            "type": "Dragon"
+        },
+        {
+            "id": 460,
+            "name": "Spacial Rend",
+            "accuracy": 95,
+            "power": 100,
+            "type": "Dragon"
+        },
+        {
+            "id": 461,
+            "name": "Lunar Dance",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 462,
+            "name": "Crush Grip",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 463,
+            "name": "Magma Storm",
+            "accuracy": 75,
+            "power": 120,
+            "type": "Fire"
+        },
+        {
+            "id": 464,
+            "name": "Dark Void",
+            "accuracy": 80,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 465,
+            "name": "Seed Flare",
+            "accuracy": 85,
+            "power": 120,
+            "type": "Grass"
+        },
+        {
+            "id": 466,
+            "name": "Ominous Wind",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Ghost"
+        },
+        {
+            "id": 467,
+            "name": "Shadow Force",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Ghost"
+        },
+        {
+            "id": 468,
+            "name": "Hone Claws",
+            "accuracy": null,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 469,
+            "name": "Wide Guard",
+            "accuracy": null,
+            "power": null,
+            "type": "Rock"
+        },
+        {
+            "id": 470,
+            "name": "Guard Split",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 471,
+            "name": "Power Split",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 472,
+            "name": "Wonder Room",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 473,
+            "name": "Psyshock",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Psychic"
+        },
+        {
+            "id": 474,
+            "name": "Venoshock",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Poison"
+        },
+        {
+            "id": 475,
+            "name": "Autotomize",
+            "accuracy": null,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 476,
+            "name": "Rage Powder",
+            "accuracy": null,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 477,
+            "name": "Telekinesis",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 478,
+            "name": "Magic Room",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 479,
+            "name": "Smack Down",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Rock"
+        },
+        {
+            "id": 480,
+            "name": "Storm Throw",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 481,
+            "name": "Flame Burst",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Fire"
+        },
+        {
+            "id": 482,
+            "name": "Sludge Wave",
+            "accuracy": 100,
+            "power": 95,
+            "type": "Poison"
+        },
+        {
+            "id": 483,
+            "name": "Quiver Dance",
+            "accuracy": null,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 484,
+            "name": "Heavy Slam",
+            "accuracy": 100,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 485,
+            "name": "Synchronoise",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Psychic"
+        },
+        {
+            "id": 486,
+            "name": "Electro Ball",
+            "accuracy": 100,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 487,
+            "name": "Soak",
+            "accuracy": 100,
+            "power": null,
+            "type": "Water"
+        },
+        {
+            "id": 488,
+            "name": "Flame Charge",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Fire"
+        },
+        {
+            "id": 489,
+            "name": "Coil",
+            "accuracy": null,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 490,
+            "name": "Low Sweep",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Fighting"
+        },
+        {
+            "id": 491,
+            "name": "Acid Spray",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Poison"
+        },
+        {
+            "id": 492,
+            "name": "Foul Play",
+            "accuracy": 100,
+            "power": 95,
+            "type": "Dark"
+        },
+        {
+            "id": 493,
+            "name": "Simple Beam",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 494,
+            "name": "Entrainment",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 495,
+            "name": "After You",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 496,
+            "name": "Round",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Normal"
+        },
+        {
+            "id": 497,
+            "name": "Echoed Voice",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "id": 498,
+            "name": "Chip Away",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 499,
+            "name": "Clear Smog",
+            "accuracy": null,
+            "power": 50,
+            "type": "Poison"
+        },
+        {
+            "id": 500,
+            "name": "Stored Power",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Psychic"
+        },
+        {
+            "id": 501,
+            "name": "Quick Guard",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 502,
+            "name": "Ally Switch",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 503,
+            "name": "Scald",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Water"
+        },
+        {
+            "id": 504,
+            "name": "Shell Smash",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 505,
+            "name": "Heal Pulse",
+            "accuracy": null,
+            "power": null,
+            "type": "Psychic"
+        },
+        {
+            "id": 506,
+            "name": "Hex",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Ghost"
+        },
+        {
+            "id": 507,
+            "name": "Sky Drop",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 508,
+            "name": "Shift Gear",
+            "accuracy": null,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 509,
+            "name": "Circle Throw",
+            "accuracy": 90,
+            "power": 60,
+            "type": "Fighting"
+        },
+        {
+            "id": 510,
+            "name": "Incinerate",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Fire"
+        },
+        {
+            "id": 511,
+            "name": "Quash",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 512,
+            "name": "Acrobatics",
+            "accuracy": 100,
+            "power": 55,
+            "type": "Fighting"
+        },
+        {
+            "id": 513,
+            "name": "Reflect Type",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 514,
+            "name": "Retaliate",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Normal"
+        },
+        {
+            "id": 515,
+            "name": "Final Gambit",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 516,
+            "name": "Bestow",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 517,
+            "name": "Inferno",
+            "accuracy": 50,
+            "power": 100,
+            "type": "Fire"
+        },
+        {
+            "id": 518,
+            "name": "Water Pledge",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Water"
+        },
+        {
+            "id": 519,
+            "name": "Fire Pledge",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Fire"
+        },
+        {
+            "id": 520,
+            "name": "Grass Pledge",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Grass"
+        },
+        {
+            "id": 521,
+            "name": "Volt Switch",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Electric"
+        },
+        {
+            "id": 522,
+            "name": "Struggle Bug",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Bug"
+        },
+        {
+            "id": 523,
+            "name": "Bulldoze",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Ground"
+        },
+        {
+            "id": 524,
+            "name": "Frost Breath",
+            "accuracy": 90,
+            "power": 60,
+            "type": "Ice"
+        },
+        {
+            "id": 525,
+            "name": "Dragon Tail",
+            "accuracy": 90,
+            "power": 60,
+            "type": "Dragon"
+        },
+        {
+            "id": 526,
+            "name": "Work Up",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 527,
+            "name": "Electroweb",
+            "accuracy": 95,
+            "power": 55,
+            "type": "Electric"
+        },
+        {
+            "id": 528,
+            "name": "Wild Charge",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Electric"
+        },
+        {
+            "id": 529,
+            "name": "Drill Run",
+            "accuracy": 95,
+            "power": 80,
+            "type": "Ground"
+        },
+        {
+            "id": 530,
+            "name": "Dual Chop",
+            "accuracy": 90,
+            "power": 40,
+            "type": "Dragon"
+        },
+        {
+            "id": 531,
+            "name": "Heart Stamp",
+            "accuracy": 100,
+            "power": 60,
+            "type": "Psychic"
+        },
+        {
+            "id": 532,
+            "name": "Horn Leech",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Grass"
+        },
+        {
+            "id": 533,
+            "name": "Sacred Sword",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Fighting"
+        },
+        {
+            "id": 534,
+            "name": "Razor Shell",
+            "accuracy": 95,
+            "power": 75,
+            "type": "Water"
+        },
+        {
+            "id": 535,
+            "name": "Heat Crash",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fire"
+        },
+        {
+            "id": 536,
+            "name": "Leaf Tornado",
+            "accuracy": 90,
+            "power": 65,
+            "type": "Grass"
+        },
+        {
+            "id": 537,
+            "name": "Steamroller",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Bug"
+        },
+        {
+            "id": 538,
+            "name": "Cotton Guard",
+            "accuracy": null,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 539,
+            "name": "Night Daze",
+            "accuracy": 95,
+            "power": 85,
+            "type": "Dark"
+        },
+        {
+            "id": 540,
+            "name": "Psystrike",
+            "accuracy": 100,
+            "power": 100,
+            "type": "Psychic"
+        },
+        {
+            "id": 541,
+            "name": "Tail Slap",
+            "accuracy": 85,
+            "power": 25,
+            "type": "Normal"
+        },
+        {
+            "id": 542,
+            "name": "Hurricane",
+            "accuracy": 70,
+            "power": 120,
+            "type": "Fighting"
+        },
+        {
+            "id": 543,
+            "name": "Head Charge",
+            "accuracy": 100,
+            "power": 120,
+            "type": "Normal"
+        },
+        {
+            "id": 544,
+            "name": "Gear Grind",
+            "accuracy": 85,
+            "power": 50,
+            "type": "Steel"
+        },
+        {
+            "id": 545,
+            "name": "Searing Shot",
+            "accuracy": 100,
+            "power": 100,
+            "type": "Fire"
+        },
+        {
+            "id": 546,
+            "name": "Techno Blast",
+            "accuracy": 100,
+            "power": 85,
+            "type": "Normal"
+        },
+        {
+            "id": 547,
+            "name": "Relic Song",
+            "accuracy": 100,
+            "power": 75,
+            "type": "Normal"
+        },
+        {
+            "id": 548,
+            "name": "Secret Sword",
+            "accuracy": 100,
+            "power": 85,
+            "type": "Fighting"
+        },
+        {
+            "id": 549,
+            "name": "Glaciate",
+            "accuracy": 95,
+            "power": 65,
+            "type": "Ice"
+        },
+        {
+            "id": 550,
+            "name": "Bolt Strike",
+            "accuracy": 85,
+            "power": 130,
+            "type": "Electric"
+        },
+        {
+            "id": 551,
+            "name": "Blue Flare",
+            "accuracy": 85,
+            "power": 130,
+            "type": "Fire"
+        },
+        {
+            "id": 552,
+            "name": "Fiery Dance",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Fire"
+        },
+        {
+            "id": 553,
+            "name": "Freeze Shock",
+            "accuracy": 90,
+            "power": 140,
+            "type": "Ice"
+        },
+        {
+            "id": 554,
+            "name": "Ice Burn",
+            "accuracy": 90,
+            "power": 140,
+            "type": "Ice"
+        },
+        {
+            "id": 555,
+            "name": "Snarl",
+            "accuracy": 95,
+            "power": 55,
+            "type": "Dark"
+        },
+        {
+            "id": 556,
+            "name": "Icicle Crash",
+            "accuracy": 90,
+            "power": 85,
+            "type": "Ice"
+        },
+        {
+            "id": 557,
+            "name": "V-create",
+            "accuracy": 95,
+            "power": 180,
+            "type": "Fire"
+        },
+        {
+            "id": 558,
+            "name": "Fusion Flare",
+            "accuracy": 100,
+            "power": 100,
+            "type": "Fire"
+        },
+        {
+            "id": 559,
+            "name": "Fusion Bolt",
+            "accuracy": 100,
+            "power": 100,
+            "type": "Electric"
+        },
+        {
+            "id": 560,
+            "name": "Flying Press",
+            "accuracy": 95,
+            "power": 80,
+            "type": "Fighting"
+        },
+        {
+            "id": 561,
+            "name": "Mat Block",
+            "accuracy": null,
+            "power": null,
+            "type": "Fighting"
+        },
+        {
+            "id": 562,
+            "name": "Belch",
+            "accuracy": 90,
+            "power": 120,
+            "type": "Poison"
+        },
+        {
+            "id": 563,
+            "name": "Rototiller",
+            "accuracy": null,
+            "power": null,
+            "type": "Ground"
+        },
+        {
+            "id": 564,
+            "name": "Sticky Web",
+            "accuracy": null,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 565,
+            "name": "Fell Stinger",
+            "accuracy": 100,
+            "power": 30,
+            "type": "Bug"
+        },
+        {
+            "id": 566,
+            "name": "Phantom Force",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Ghost"
+        },
+        {
+            "id": 567,
+            "name": "Trick-or-Treat",
+            "accuracy": 100,
+            "power": null,
+            "type": "Ghost"
+        },
+        {
+            "id": 568,
+            "name": "Noble Roar",
+            "accuracy": 100,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 569,
+            "name": "Ion Deluge",
+            "accuracy": 25,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 570,
+            "name": "Parabolic Charge",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Electric"
+        },
+        {
+            "id": 571,
+            "name": "Forest's Curse",
+            "accuracy": 100,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 572,
+            "name": "Petal Blizzard",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Grass"
+        },
+        {
+            "id": 573,
+            "name": "Freeze-Dry",
+            "accuracy": 100,
+            "power": 70,
+            "type": "Ice"
+        },
+        {
+            "id": 574,
+            "name": "Disarming Voice",
+            "accuracy": null,
+            "power": 40,
+            "type": "Fairy"
+        },
+        {
+            "id": 575,
+            "name": "Parting Shot",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 576,
+            "name": "Topsy-Turvy",
+            "accuracy": 100,
+            "power": null,
+            "type": "Dark"
+        },
+        {
+            "id": 577,
+            "name": "Draining Kiss",
+            "accuracy": 100,
+            "power": 50,
+            "type": "Fairy"
+        },
+        {
+            "id": 578,
+            "name": "Crafty Shield",
+            "accuracy": null,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 579,
+            "name": "Flower Shield",
+            "accuracy": null,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 580,
+            "name": "Grassy Terrain",
+            "accuracy": null,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 581,
+            "name": "Misty Terrain",
+            "accuracy": null,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 582,
+            "name": "Electrify",
+            "accuracy": null,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 583,
+            "name": "Play Rough",
+            "accuracy": 90,
+            "power": 90,
+            "type": "Fairy"
+        },
+        {
+            "id": 584,
+            "name": "Fairy Wind",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Fairy"
+        },
+        {
+            "id": 585,
+            "name": "Moonblast",
+            "accuracy": 100,
+            "power": 95,
+            "type": "Fairy"
+        },
+        {
+            "id": 586,
+            "name": "Boomburst",
+            "accuracy": 100,
+            "power": 140,
+            "type": "Normal"
+        },
+        {
+            "id": 587,
+            "name": "Fairy Lock",
+            "accuracy": null,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 588,
+            "name": "King's Shield",
+            "accuracy": null,
+            "power": null,
+            "type": "Steel"
+        },
+        {
+            "id": 589,
+            "name": "Play Nice",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 590,
+            "name": "Confide",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 594,
+            "name": "Water Shuriken",
+            "accuracy": 100,
+            "power": 15,
+            "type": "Water"
+        },
+        {
+            "id": 595,
+            "name": "Mystical Fire",
+            "accuracy": 100,
+            "power": 65,
+            "type": "Fire"
+        },
+        {
+            "id": 596,
+            "name": "Spiky Shield",
+            "accuracy": null,
+            "power": null,
+            "type": "Grass"
+        },
+        {
+            "id": 597,
+            "name": "Aromatic Mist",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 598,
+            "name": "Eerie Impulse",
+            "accuracy": 100,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 599,
+            "name": "Venom Drench",
+            "accuracy": 100,
+            "power": null,
+            "type": "Poison"
+        },
+        {
+            "id": 600,
+            "name": "Powder",
+            "accuracy": 100,
+            "power": null,
+            "type": "Bug"
+        },
+        {
+            "id": 601,
+            "name": "Geomancy",
+            "accuracy": null,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 602,
+            "name": "Magnetic Flux",
+            "accuracy": null,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 603,
+            "name": "Happy Hour",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 604,
+            "name": "Electric Terrain",
+            "accuracy": null,
+            "power": null,
+            "type": "Electric"
+        },
+        {
+            "id": 605,
+            "name": "Dazzling Gleam",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Fairy"
+        },
+        {
+            "id": 606,
+            "name": "Celebration",
+            "accuracy": null,
+            "power": null,
+            "type": "Normal"
+        },
+        {
+            "id": 608,
+            "name": "Baby-Doll Eyes",
+            "accuracy": 100,
+            "power": null,
+            "type": "Fairy"
+        },
+        {
+            "id": 609,
+            "name": "Nuzzle",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Electric"
+        },
+        {
+            "id": 611,
+            "name": "Infestation",
+            "accuracy": 100,
+            "power": 20,
+            "type": "Bug"
+        },
+        {
+            "id": 612,
+            "name": "Power-Up Punch",
+            "accuracy": 100,
+            "power": 40,
+            "type": "Fighting"
+        },
+        {
+            "id": 613,
+            "name": "Oblivion Wing",
+            "accuracy": 100,
+            "power": 80,
+            "type": "Fighting"
+        },
+        {
+            "id": 616,
+            "name": "Land's Wrath",
+            "accuracy": 100,
+            "power": 90,
+            "type": "Ground"
+        },
+        {
+            "id": 617,
+            "name": "Diamond Storm",
+            "accuracy": 95,
+            "power": 100,
+            "type": "Rock"
+        },
+        {
+            "id": 618,
+            "name": "Hyperspace Hole",
+            "accuracy": null,
+            "power": 80,
+            "type": "Psychic"
+        },
+        {
+            "id": 619,
+            "name": "Steam Eruption",
+            "accuracy": 95,
+            "power": 110,
+            "type": "Water"
+        }
+    ]
+}
