@@ -1,6 +1,6 @@
 import type { PdfGeneratorConfig } from './pdf-generator-config';
-import '../../assets/pdfkit.standalone.js';
-import '../../assets/blob-stream.js';
+import '../../lib/pdfkit.standalone.js';
+import '../../lib/blob-stream.js';
 import { PageLayout } from './page-layout.enum';
 import { Operation } from './operation.enum';
 
@@ -17,8 +17,6 @@ export class PdfGenerator {
     for (let i = 0; i < this.config.numOfPages; ++i) {
       this.createPage();
     }
-
-    this.doc.addPage();
 
     this.doc.end();
     this.stream.on('finish', () => {
@@ -40,6 +38,8 @@ export class PdfGenerator {
   }
 
   private createSideBySidePage() {
+    this.doc.addPage();
+
     const origins: Origin[] = [
       { x: 8, y: 0, width: this.doc.page.width / 2, height: this.doc.page.height },
       {
