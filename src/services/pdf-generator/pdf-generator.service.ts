@@ -1,15 +1,15 @@
 import type { PdfGeneratorConfig } from './pdf-generator-config';
-import '../../lib/pdfkit.standalone.js';
-import '../../lib/blob-stream.js';
 import { PageLayout } from './page-layout.enum';
 import { Operation } from './operation.enum';
 
 export class PdfGenerator {
-  private doc: PDFDocument;
+  private doc: any;
   private stream: any;
 
   constructor(private config: PdfGeneratorConfig) {
-    this.doc = new PDFDocument({ autoFirstPage: false });
+    const pdfDocument = window[<any>'PDFDocument'] as any;
+    const blobStream = window[<any>'blobStream'] as any;
+    this.doc = new pdfDocument({ autoFirstPage: false });
     this.stream = this.doc.pipe(blobStream());
   }
 
