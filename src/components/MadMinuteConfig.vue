@@ -183,12 +183,12 @@ const numOfEquations = ref(20);
 const imageSets = ref([{ name: 'None' }, { name: 'Pokémon' }]);
 const imageSetValue = ref('None');
 
-const layouts = ref([{ name: 'Side-by-Side' }, { name: 'Top-Bottom' }]);
+const layouts = ref([{ name: 'Side-by-Side' }]);
 const layoutValue = ref('Side-by-Side');
 
 const numOfPages = ref(1);
 
-function submit() {
+async function submit() {
   const config = new PdfGeneratorConfig(
     operationValue.value as Operation,
     xMin.value,
@@ -202,7 +202,7 @@ function submit() {
   );
 
   const service = new PdfGenerator(config);
-  service.generate();
+  await service.generate();
   return false;
 }
 

@@ -1,6 +1,7 @@
 import type { PdfGeneratorConfig } from './pdf-generator-config';
 import { PageLayout } from './page-layout.enum';
 import { Operation } from './operation.enum';
+import { ImageSet } from './image-set.enum';
 
 export class PdfGenerator {
   private doc: any;
@@ -13,9 +14,9 @@ export class PdfGenerator {
     this.stream = this.doc.pipe(blobStream());
   }
 
-  generate() {
+  async generate() {
     for (let i = 0; i < this.config.numOfPages; ++i) {
-      this.createPage();
+      await this.createPage();
     }
 
     this.doc.end();
@@ -27,17 +28,17 @@ export class PdfGenerator {
     });
   }
 
-  private createPage() {
+  private async createPage() {
     switch (this.config.pageLayout) {
       case PageLayout.SideBySide:
-        this.createSideBySidePage();
+        await this.createSideBySidePage();
         break;
       case PageLayout.TopBottom:
         break;
     }
   }
 
-  private createSideBySidePage() {
+  private async createSideBySidePage() {
     this.doc.addPage();
 
     const origins: Origin[] = [
@@ -50,13 +51,13 @@ export class PdfGenerator {
       }
     ];
 
-    this.createSideBySideSheet(origins[0]);
-    this.createSideBySideSheet(origins[1]);
+    await this.createSideBySideSheet(origins[0]);
+    await this.createSideBySideSheet(origins[1]);
   }
 
-  private createSideBySideSheet(origin: Origin) {
+  private async createSideBySideSheet(origin: Origin) {
     const top = origin.y;
-    const bottom = origin.y + origin.height;
+    // const bottom = origin.y + origin.height;
 
     this.doc
       .rect(origin.x, origin.y, origin.width, origin.height)
@@ -68,15 +69,27 @@ export class PdfGenerator {
       .fill('black')
       .text('Name: ___________________', origin.x + 16, top + 24);
 
+    if (this.config.imageSet === ImageSet.Pokemon) {
+      const pokemonImage = randomPokemonImage();
+      const res = await fetch(`/images/pokemon/${pokemonImage}`);
+      const blob = await res.blob();
+      const base64String = await new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.readAsDataURL(blob);
+      });
+      this.doc.image(base64String, origin.width + origin.x - 50 - 32, top + 16, {
+        width: 50
+      });
+    }
+
     const equations = this.generateEquations();
-    console.log(equations);
     for (let index = 0; index < equations.length; ++index) {
-      const position = {
-        x: origin.x + 16,
-        y: top + 64 + (index % 20) * 32
-      };
-      const text = `${equations[index]}`;
-      this.doc.text(text, position.x, position.y);
+      const x = origin.x + 16;
+      const y = top + 72 + (index % 20) * 33;
+
+      this.doc.text(`${index + 1}.`, x, y);
+      this.doc.text(equations[index], x + 64, y);
     }
   }
 
@@ -121,4 +134,9 @@ interface Origin {
 
 function between(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+function randomPokemonImage() {
+  const num = between(1, 150).toString().padStart(3, '0');
+  return `${num}.png`;
 }
